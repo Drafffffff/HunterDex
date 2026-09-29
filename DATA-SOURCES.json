@@ -1,0 +1,17 @@
+{
+  "snapshot": "2018-12-13",
+  "database_source": "https://github.com/gatheringhallstudios/MHGenDatabase",
+  "modification": "Added read-only query indexes; game records unchanged",
+  "files": {
+    "mhgu.db": "79f5513ace5a72dfcbb10da128a6a2ad49c46e7f1ea5450081d6b32a7896cf8f",
+    "zh.json": "40d408013232fb97f859ad6b7a040d076f03d14a2459ac5642d89d3dd6074088",
+    "localization.json": "c1096e4d427a4dd33f651f8f539df40b8d9a258c43300c9ff5cb498bd4be8f6a",
+    "artwork.json": "7f37f035a0254a2a9cb7b4018371816518eb25e473d2b64730b5c77760b586b8",
+    "linked-localization.json": "6295903c4de9511aa84431466dc3f738c65ac6f71e1c54ddb1dd10c5f5d456bb"
+  },
+  "localization_source": "https://github.com/jestar719/mhgu",
+  "artwork_sources": [
+    "https://github.com/gatheringhallstudios/MHGenDatabase",
+    "https://github.com/AngryChocobo/monster-hunter-web-data"
+  ]
+}

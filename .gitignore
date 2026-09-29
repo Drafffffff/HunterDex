@@ -1,0 +1,9 @@
+.build/
+dist/
+.DS_Store
+.cache/
+.zcodeignore
+__pycache__/
+*.pyc
+.env
+.env.*

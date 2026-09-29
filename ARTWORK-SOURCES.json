@@ -1,0 +1,555 @@
+{
+  "icons": "https://github.com/gatheringhallstudios/MHGenDatabase/tree/develop/app/src/main/icon-res/drawable",
+  "portraits": {
+    "1": {
+      "file": "portrait_1.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m0011.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1862.html",
+      "english": "Rathian"
+    },
+    "2": {
+      "file": "portrait_2.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m111.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1863.html",
+      "english": "Rathalos"
+    },
+    "3": {
+      "file": "portrait_3.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4005.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1860.html",
+      "english": "Khezu"
+    },
+    "4": {
+      "file": "portrait_4.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4016.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2983.html",
+      "english": "Basarios"
+    },
+    "5": {
+      "file": "portrait_5.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4017.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2980.html",
+      "english": "Gravios"
+    },
+    "7": {
+      "file": "portrait_7.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5017.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2962.html",
+      "english": "Diablos"
+    },
+    "8": {
+      "file": "portrait_8.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4002.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1840.html",
+      "english": "Yian Kut-Ku"
+    },
+    "9": {
+      "file": "portrait_9.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4004.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1972.html",
+      "english": "Gypceros"
+    },
+    "10": {
+      "file": "portrait_10.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m100.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1968.html",
+      "english": "Plesioth"
+    },
+    "11": {
+      "file": "portrait_11.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5008.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1969.html",
+      "english": "Kirin"
+    },
+    "12": {
+      "file": "portrait_12.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx3.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2977.html",
+      "english": "Lao-Shan Lung"
+    },
+    "13": {
+      "file": "portrait_13.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5006.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2993.html",
+      "english": "Fatalis"
+    },
+    "14": {
+      "file": "portrait_14.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4034.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1984.html",
+      "english": "Velocidrome"
+    },
+    "15": {
+      "file": "portrait_15.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4006.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1983.html",
+      "english": "Gendrome"
+    },
+    "16": {
+      "file": "portrait_16.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4015.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1981.html",
+      "english": "Iodrome"
+    },
+    "18": {
+      "file": "portrait_18.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4055.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1846.html",
+      "english": "Yian Garuga"
+    },
+    "19": {
+      "file": "portrait_19.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5011.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1854.html",
+      "english": "Daimyo Hermitaur"
+    },
+    "20": {
+      "file": "portrait_20.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx5.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1852.html",
+      "english": "Shogun Ceanataur"
+    },
+    "21": {
+      "file": "portrait_21.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx4.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2971.html",
+      "english": "Congalala"
+    },
+    "22": {
+      "file": "portrait_22.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx13.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1857.html",
+      "english": "Blangonga"
+    },
+    "23": {
+      "file": "portrait_23.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa6.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2873.html",
+      "english": "Rajang"
+    },
+    "24": {
+      "file": "portrait_24.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4014.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1970.html",
+      "english": "Kushala Daora"
+    },
+    "25": {
+      "file": "portrait_25.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5003.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1967.html",
+      "english": "Chameleos"
+    },
+    "27": {
+      "file": "portrait_27.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4018.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1973.html",
+      "english": "Teostra"
+    },
+    "30": {
+      "file": "portrait_30.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx12.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1975.html",
+      "english": "Bulldrome"
+    },
+    "32": {
+      "file": "portrait_32.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4001.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1855.html",
+      "english": "Tigrex"
+    },
+    "33": {
+      "file": "portrait_33.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa1.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2875.html",
+      "english": "Akantor"
+    },
+    "34": {
+      "file": "portrait_34.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx29.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2989.html",
+      "english": "Giadrome"
+    },
+    "36": {
+      "file": "portrait_36.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx3.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1965.html",
+      "english": "Lavasioth"
+    },
+    "37": {
+      "file": "portrait_37.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m0012.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1839.html",
+      "english": "Nargacuga"
+    },
+    "38": {
+      "file": "portrait_38.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa4.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2876.html",
+      "english": "Ukanlos"
+    },
+    "42": {
+      "file": "portrait_42.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m010.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2966.html",
+      "english": "Barioth"
+    },
+    "43": {
+      "file": "portrait_43.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa2.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2871.html",
+      "english": "Deviljho"
+    },
+    "44": {
+      "file": "portrait_44.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m007.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2965.html",
+      "english": "Barroth"
+    },
+    "45": {
+      "file": "portrait_45.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m0008.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1966.html",
+      "english": "Uragaan"
+    },
+    "46": {
+      "file": "portrait_46.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m0004.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1861.html",
+      "english": "Lagiacrus"
+    },
+    "47": {
+      "file": "portrait_47.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m011.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1978.html",
+      "english": "Royal Ludroth"
+    },
+    "49": {
+      "file": "portrait_49.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m108.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1848.html",
+      "english": "Agnaktor"
+    },
+    "50": {
+      "file": "portrait_50.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa10.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2879.html",
+      "english": "Alatreon"
+    },
+    "55": {
+      "file": "portrait_55.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m13.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1976.html",
+      "english": "Duramboros"
+    },
+    "56": {
+      "file": "portrait_56.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m06.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1858.html",
+      "english": "Nibelsnarf"
+    },
+    "57": {
+      "file": "portrait_57.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4033.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1853.html",
+      "english": "Zinogre"
+    },
+    "58": {
+      "file": "portrait_58.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx2.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1979.html",
+      "english": "Amatsu"
+    },
+    "60": {
+      "file": "portrait_60.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m02.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1964.html",
+      "english": "Arzuros"
+    },
+    "61": {
+      "file": "portrait_61.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m04.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1980.html",
+      "english": "Lagombi"
+    },
+    "62": {
+      "file": "portrait_62.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx18.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1977.html",
+      "english": "Volvidon"
+    },
+    "63": {
+      "file": "portrait_63.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m102.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1859.html",
+      "english": "Brachydios"
+    },
+    "65": {
+      "file": "portrait_65.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4008.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1850.html",
+      "english": "Kecha Wacha"
+    },
+    "66": {
+      "file": "portrait_66.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4011.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1856.html",
+      "english": "Tetsucabra"
+    },
+    "67": {
+      "file": "portrait_67.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4019.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1851.html",
+      "english": "Zamtrios"
+    },
+    "68": {
+      "file": "portrait_68.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4007.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1849.html",
+      "english": "Najarala"
+    },
+    "69": {
+      "file": "portrait_69.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4032.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1971.html",
+      "english": "Seltas Queen"
+    },
+    "70": {
+      "file": "portrait_70.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4012.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2979.html",
+      "english": "Nerscylla"
+    },
+    "71": {
+      "file": "portrait_71.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m4009.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2830.html",
+      "english": "Gore Magala"
+    },
+    "72": {
+      "file": "portrait_72.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa5.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2864.html",
+      "english": "Shagaru Magala"
+    },
+    "76": {
+      "file": "portrait_76.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx21.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2857.html",
+      "english": "Seltas"
+    },
+    "77": {
+      "file": "portrait_77.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5030.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2831.html",
+      "english": "Seregios"
+    },
+    "79": {
+      "file": "portrait_79.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx16.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1845.html",
+      "english": "Malfestio"
+    },
+    "80": {
+      "file": "portrait_80.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx10.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1829.html",
+      "english": "Glavenus"
+    },
+    "81": {
+      "file": "portrait_81.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx17.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1830.html",
+      "english": "Astalos"
+    },
+    "82": {
+      "file": "portrait_82.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx8.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1832.html",
+      "english": "Mizutsune"
+    },
+    "83": {
+      "file": "portrait_83.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx4.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1831.html",
+      "english": "Gammoth"
+    },
+    "84": {
+      "file": "portrait_84.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx22.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2858.html",
+      "english": "Nakarkos"
+    },
+    "86": {
+      "file": "portrait_86.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx1.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2964.html",
+      "english": "Valstrax"
+    },
+    "269": {
+      "file": "portrait_269.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/m5005.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2994.html",
+      "english": "Crimson Fatalis"
+    },
+    "513": {
+      "file": "portrait_513.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa8.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2877.html",
+      "english": "Gold Rathian"
+    },
+    "514": {
+      "file": "portrait_514.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa9.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2878.html",
+      "english": "Silver Rathalos"
+    },
+    "525": {
+      "file": "portrait_525.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx26.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2995.html",
+      "english": "Old Fatalis"
+    },
+    "1025": {
+      "file": "portrait_1025.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx19.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2834.html",
+      "english": "Dreadqueen Rathian"
+    },
+    "1026": {
+      "file": "portrait_1026.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx20.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2833.html",
+      "english": "Dreadking Rathalos"
+    },
+    "1031": {
+      "file": "portrait_1031.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx2.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2963.html",
+      "english": "Bloodbath Diablos"
+    },
+    "1042": {
+      "file": "portrait_1042.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa14.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2868.html",
+      "english": "Deadeye Yian Garuga"
+    },
+    "1043": {
+      "file": "portrait_1043.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx7.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2836.html",
+      "english": "Stonefist Hermitaur"
+    },
+    "1044": {
+      "file": "portrait_1044.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx21.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2982.html",
+      "english": "Rustrazor Ceanataur"
+    },
+    "1056": {
+      "file": "portrait_1056.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx9.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2840.html",
+      "english": "Grimclaw Tigrex"
+    },
+    "1061": {
+      "file": "portrait_1061.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx15.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2838.html",
+      "english": "Silverwind Nargacuga"
+    },
+    "1069": {
+      "file": "portrait_1069.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa11.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2869.html",
+      "english": "Crystalbeard Uragaan"
+    },
+    "1081": {
+      "file": "portrait_1081.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx6.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2839.html",
+      "english": "Thunderlord Zinogre"
+    },
+    "1084": {
+      "file": "portrait_1084.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx1.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2835.html",
+      "english": "Redhelm Arzuros"
+    },
+    "1085": {
+      "file": "portrait_1085.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa12.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2863.html",
+      "english": "Snowbaron Lagombi"
+    },
+    "1090": {
+      "file": "portrait_1090.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx11.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2837.html",
+      "english": "Drilltusk Tetsucabra"
+    },
+    "1103": {
+      "file": "portrait_1103.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx20.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2981.html",
+      "english": "Nightcloak Malfestio"
+    },
+    "1104": {
+      "file": "portrait_1104.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx6.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2870.html",
+      "english": "Hellblade Glavenus"
+    },
+    "1105": {
+      "file": "portrait_1105.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx8.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2974.html",
+      "english": "Boltreaver Astalos"
+    },
+    "1106": {
+      "file": "portrait_1106.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx7.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2973.html",
+      "english": "Soulseer Mizutsune"
+    },
+    "1107": {
+      "file": "portrait_1107.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx5.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2972.html",
+      "english": "Elderfrost Gammoth"
+    },
+    "1303": {
+      "file": "portrait_1303.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa7.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2874.html",
+      "english": "Furious Rajang"
+    },
+    "1323": {
+      "file": "portrait_1323.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxa3.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2872.html",
+      "english": "Savage Deviljho"
+    },
+    "1343": {
+      "file": "portrait_1343.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx25.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2991.html",
+      "english": "Raging Brachydios"
+    },
+    "1351": {
+      "file": "portrait_1351.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mxx24.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/2990.html",
+      "english": "Chaotic Gore Magala"
+    },
+    "4142": {
+      "file": "portrait_4142.png",
+      "source": "https://github.com/AngryChocobo/monster-hunter-web-data/blob/master/images/monster/mx14.png",
+      "reference": "https://github.com/jestar719/mhgu/blob/master/app/src/main/assets/mhxx/data/1836.html",
+      "english": "Maccao"
+    }
+  },
+  "fallback_icon": "https://github.com/gatheringhallstudios/MHGenDatabase/blob/develop/app/src/main/res/drawable-xxhdpi/question_mark_grey.png",
+  "missing_source_icons": [
+    "icon_sprout"
+  ]
+}

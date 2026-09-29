@@ -1,0 +1,7243 @@
+{
+  "coverage": {
+    "Item": [
+      1562,
+      2624
+    ],
+    "Decoration": [
+      242,
+      242
+    ],
+    "Weapon": [
+      9090,
+      10877
+    ],
+    "Palico Weapon": [
+      0,
+      495
+    ],
+    "Palico Armor": [
+      0,
+      1001
+    ],
+    "Armor": [
+      4803,
+      5637
+    ],
+    "Materials": [
+      277,
+      277
+    ],
+    "Quests": [
+      882,
+      1355
+    ]
+  },
+  "untranslated_items": [
+    {
+      "id": 55,
+      "english": "Kingmeat",
+      "type": "Item"
+    },
+    {
+      "id": 229,
+      "english": "Power Jelly+",
+      "type": "Item"
+    },
+    {
+      "id": 230,
+      "english": "Heavy Jelly+",
+      "type": "Item"
+    },
+    {
+      "id": 231,
+      "english": "Speed Jelly+",
+      "type": "Item"
+    },
+    {
+      "id": 232,
+      "english": "Power Jelly++",
+      "type": "Item"
+    },
+    {
+      "id": 233,
+      "english": "Heavy Jelly++",
+      "type": "Item"
+    },
+    {
+      "id": 234,
+      "english": "Speed Jelly++",
+      "type": "Item"
+    },
+    {
+      "id": 235,
+      "english": "Fire Ambrosia+",
+      "type": "Item"
+    },
+    {
+      "id": 236,
+      "english": "Water Ambrosia+",
+      "type": "Item"
+    },
+    {
+      "id": 237,
+      "english": "Thunder Ambrosia+",
+      "type": "Item"
+    },
+    {
+      "id": 238,
+      "english": "Ice Ambrosia+",
+      "type": "Item"
+    },
+    {
+      "id": 239,
+      "english": "Dragon Ambrosia+",
+      "type": "Item"
+    },
+    {
+      "id": 240,
+      "english": "Douse Ambrosia",
+      "type": "Item"
+    },
+    {
+      "id": 241,
+      "english": "Drought Ambrosia",
+      "type": "Item"
+    },
+    {
+      "id": 242,
+      "english": "Resistor Ambrosia",
+      "type": "Item"
+    },
+    {
+      "id": 243,
+      "english": "Melt Ambrosia",
+      "type": "Item"
+    },
+    {
+      "id": 244,
+      "english": "De-wyrm Ambrosia",
+      "type": "Item"
+    },
+    {
+      "id": 245,
+      "english": "Reverse Ambrosia",
+      "type": "Item"
+    },
+    {
+      "id": 246,
+      "english": "Alchemy Barrel",
+      "type": "Item"
+    },
+    {
+      "id": 247,
+      "english": "Alchemy Food",
+      "type": "Item"
+    },
+    {
+      "id": 248,
+      "english": "Alchemy Immunizer",
+      "type": "Item"
+    },
+    {
+      "id": 249,
+      "english": "Alchemy Earplugs",
+      "type": "Item"
+    },
+    {
+      "id": 250,
+      "english": "Alchemy Slick",
+      "type": "Item"
+    },
+    {
+      "id": 251,
+      "english": "Alchemy Cheer",
+      "type": "Item"
+    },
+    {
+      "id": 252,
+      "english": "Alchemy Whetstone",
+      "type": "Item"
+    },
+    {
+      "id": 253,
+      "english": "Alchemy Bullet",
+      "type": "Item"
+    },
+    {
+      "id": 255,
+      "english": "Alchemy Sonic Bomb",
+      "type": "Item"
+    },
+    {
+      "id": 256,
+      "english": "Alchemy Booster",
+      "type": "Item"
+    },
+    {
+      "id": 257,
+      "english": "Alchemy Fireball",
+      "type": "Item"
+    },
+    {
+      "id": 258,
+      "english": "Alchemy Remedy",
+      "type": "Item"
+    },
+    {
+      "id": 261,
+      "english": "Frog",
+      "type": "Item"
+    },
+    {
+      "id": 262,
+      "english": "Sushifish Bait",
+      "type": "Item"
+    },
+    {
+      "id": 263,
+      "english": "Burst Bait",
+      "type": "Item"
+    },
+    {
+      "id": 264,
+      "english": "Goldenfish Bait",
+      "type": "Item"
+    },
+    {
+      "id": 265,
+      "english": "Field Horn",
+      "type": "Item"
+    },
+    {
+      "id": 266,
+      "english": "Health Flute",
+      "type": "Item"
+    },
+    {
+      "id": 267,
+      "english": "Antidote Flute",
+      "type": "Item"
+    },
+    {
+      "id": 268,
+      "english": "Demon Flute",
+      "type": "Item"
+    },
+    {
+      "id": 269,
+      "english": "Armor Flute",
+      "type": "Item"
+    },
+    {
+      "id": 270,
+      "english": "Garbage",
+      "type": "Item"
+    },
+    {
+      "id": 282,
+      "english": "Spicy Mushroom",
+      "type": "Item"
+    },
+    {
+      "id": 283,
+      "english": "Frozen Berry",
+      "type": "Item"
+    },
+    {
+      "id": 284,
+      "english": "King Cactus",
+      "type": "Item"
+    },
+    {
+      "id": 285,
+      "english": "Dosbiscus",
+      "type": "Item"
+    },
+    {
+      "id": 286,
+      "english": "Heftcorn",
+      "type": "Item"
+    },
+    {
+      "id": 287,
+      "english": "Stargazer Flower",
+      "type": "Item"
+    },
+    {
+      "id": 288,
+      "english": "Prismatic Dandelion",
+      "type": "Item"
+    },
+    {
+      "id": 289,
+      "english": "Immaculate Ore",
+      "type": "Item"
+    },
+    {
+      "id": 299,
+      "english": "Chaos Mushroom",
+      "type": "Item"
+    },
+    {
+      "id": 300,
+      "english": "Bindshroom",
+      "type": "Item"
+    },
+    {
+      "id": 301,
+      "english": "Reststool",
+      "type": "Item"
+    },
+    {
+      "id": 311,
+      "english": "Bumblepumpkin",
+      "type": "Item"
+    },
+    {
+      "id": 312,
+      "english": "Giant Acorn",
+      "type": "Item"
+    },
+    {
+      "id": 313,
+      "english": "Spiky Acorn",
+      "type": "Item"
+    },
+    {
+      "id": 314,
+      "english": "Yukumo Wood",
+      "type": "Item"
+    },
+    {
+      "id": 315,
+      "english": "Yukumo Hardwood",
+      "type": "Item"
+    },
+    {
+      "id": 316,
+      "english": "Yukumo Stoutwood",
+      "type": "Item"
+    },
+    {
+      "id": 336,
+      "english": "Rainbow Ore",
+      "type": "Item"
+    },
+    {
+      "id": 337,
+      "english": "Pristine Ore",
+      "type": "Item"
+    },
+    {
+      "id": 345,
+      "english": "Armor Stone",
+      "type": "Item"
+    },
+    {
+      "id": 352,
+      "english": "True Armor Sphere",
+      "type": "Item"
+    },
+    {
+      "id": 359,
+      "english": "Rare Fish",
+      "type": "Item"
+    },
+    {
+      "id": 360,
+      "english": "Burnt Fish",
+      "type": "Item"
+    },
+    {
+      "id": 361,
+      "english": "Gourmet Fish",
+      "type": "Item"
+    },
+    {
+      "id": 362,
+      "english": "Whetfish",
+      "type": "Item"
+    },
+    {
+      "id": 363,
+      "english": "Sushifish",
+      "type": "Item"
+    },
+    {
+      "id": 364,
+      "english": "Sleepyfish",
+      "type": "Item"
+    },
+    {
+      "id": 365,
+      "english": "Pin Tuna",
+      "type": "Item"
+    },
+    {
+      "id": 366,
+      "english": "Speartuna",
+      "type": "Item"
+    },
+    {
+      "id": 367,
+      "english": "Popfish",
+      "type": "Item"
+    },
+    {
+      "id": 368,
+      "english": "Scatterfish",
+      "type": "Item"
+    },
+    {
+      "id": 371,
+      "english": "Glutton Tuna",
+      "type": "Item"
+    },
+    {
+      "id": 372,
+      "english": "Gastronome Tuna",
+      "type": "Item"
+    },
+    {
+      "id": 373,
+      "english": "Ancient Fish",
+      "type": "Item"
+    },
+    {
+      "id": 374,
+      "english": "Small Goldenfish",
+      "type": "Item"
+    },
+    {
+      "id": 375,
+      "english": "Wanchovy",
+      "type": "Item"
+    },
+    {
+      "id": 376,
+      "english": "Blue Cutthroat",
+      "type": "Item"
+    },
+    {
+      "id": 377,
+      "english": "Humspun Conch",
+      "type": "Item"
+    },
+    {
+      "id": 378,
+      "english": "Armored Bream",
+      "type": "Item"
+    },
+    {
+      "id": 379,
+      "english": "Sharqskin",
+      "type": "Item"
+    },
+    {
+      "id": 380,
+      "english": "Springnight Carp",
+      "type": "Item"
+    },
+    {
+      "id": 381,
+      "english": "Tailed Frog",
+      "type": "Item"
+    },
+    {
+      "id": 382,
+      "english": "Guardfish",
+      "type": "Item"
+    },
+    {
+      "id": 397,
+      "english": "Blossom Cricket",
+      "type": "Item"
+    },
+    {
+      "id": 398,
+      "english": "Great Hornfly",
+      "type": "Item"
+    },
+    {
+      "id": 399,
+      "english": "Butterfly Beetle",
+      "type": "Item"
+    },
+    {
+      "id": 400,
+      "english": "Great Ladybug",
+      "type": "Item"
+    },
+    {
+      "id": 403,
+      "english": "Toxic Kumori",
+      "type": "Item"
+    },
+    {
+      "id": 404,
+      "english": "Large Toxic Kumori",
+      "type": "Item"
+    },
+    {
+      "id": 405,
+      "english": "Lethal Kumori",
+      "type": "Item"
+    },
+    {
+      "id": 406,
+      "english": "Dracophage Bug",
+      "type": "Item"
+    },
+    {
+      "id": 411,
+      "english": "Unknown Skull",
+      "type": "Item"
+    },
+    {
+      "id": 412,
+      "english": "Huge Unknown Skull",
+      "type": "Item"
+    },
+    {
+      "id": 420,
+      "english": "Avian Finebone",
+      "type": "Item"
+    },
+    {
+      "id": 421,
+      "english": "Avian Stoutbone",
+      "type": "Item"
+    },
+    {
+      "id": 422,
+      "english": "Large Herbivore Bone",
+      "type": "Item"
+    },
+    {
+      "id": 429,
+      "english": "Irregular Bone",
+      "type": "Item"
+    },
+    {
+      "id": 430,
+      "english": "Irregular Stoutbone",
+      "type": "Item"
+    },
+    {
+      "id": 431,
+      "english": "Irregular Slogbone",
+      "type": "Item"
+    },
+    {
+      "id": 432,
+      "english": "Wyvern Fang",
+      "type": "Item"
+    },
+    {
+      "id": 434,
+      "english": "Sharp Claw",
+      "type": "Item"
+    },
+    {
+      "id": 435,
+      "english": "Piercing Claw",
+      "type": "Item"
+    },
+    {
+      "id": 436,
+      "english": "Sharp Fang",
+      "type": "Item"
+    },
+    {
+      "id": 437,
+      "english": "Crushing Fang",
+      "type": "Item"
+    },
+    {
+      "id": 445,
+      "english": "Steel Egg",
+      "type": "Item"
+    },
+    {
+      "id": 446,
+      "english": "Silver Egg",
+      "type": "Item"
+    },
+    {
+      "id": 447,
+      "english": "Golden Egg",
+      "type": "Item"
+    },
+    {
+      "id": 448,
+      "english": "Platinum Egg",
+      "type": "Item"
+    },
+    {
+      "id": 449,
+      "english": "Slickaxe",
+      "type": "Item"
+    },
+    {
+      "id": 472,
+      "english": "Pale Extract",
+      "type": "Item"
+    },
+    {
+      "id": 473,
+      "english": "Hyper Extract",
+      "type": "Item"
+    },
+    {
+      "id": 474,
+      "english": "Potent Hyper Extract",
+      "type": "Item"
+    },
+    {
+      "id": 475,
+      "english": "Hyper Fang",
+      "type": "Item"
+    },
+    {
+      "id": 476,
+      "english": "Hyper Fang+",
+      "type": "Item"
+    },
+    {
+      "id": 477,
+      "english": "Hyper Hardfang",
+      "type": "Item"
+    },
+    {
+      "id": 478,
+      "english": "Hyper Keenfang",
+      "type": "Item"
+    },
+    {
+      "id": 479,
+      "english": "Hyper Solidfang",
+      "type": "Item"
+    },
+    {
+      "id": 480,
+      "english": "Hyper Claw",
+      "type": "Item"
+    },
+    {
+      "id": 481,
+      "english": "Hyper Claw+",
+      "type": "Item"
+    },
+    {
+      "id": 482,
+      "english": "Hyper Heavyclaw",
+      "type": "Item"
+    },
+    {
+      "id": 483,
+      "english": "Hyper Keenclaw",
+      "type": "Item"
+    },
+    {
+      "id": 484,
+      "english": "Hyper Solidclaw",
+      "type": "Item"
+    },
+    {
+      "id": 485,
+      "english": "Hyper Monster Bone",
+      "type": "Item"
+    },
+    {
+      "id": 486,
+      "english": "Hyper MnstrToughbone",
+      "type": "Item"
+    },
+    {
+      "id": 487,
+      "english": "Hyper MnstrSlogbone",
+      "type": "Item"
+    },
+    {
+      "id": 488,
+      "english": "Hyper Horn+",
+      "type": "Item"
+    },
+    {
+      "id": 489,
+      "english": "Hyper Hardhorn",
+      "type": "Item"
+    },
+    {
+      "id": 490,
+      "english": "Hyper Flame Sac",
+      "type": "Item"
+    },
+    {
+      "id": 491,
+      "english": "Hyper Conflagrant Sac",
+      "type": "Item"
+    },
+    {
+      "id": 492,
+      "english": "Hyper Pyroscale",
+      "type": "Item"
+    },
+    {
+      "id": 493,
+      "english": "Hyper Flarescale",
+      "type": "Item"
+    },
+    {
+      "id": 494,
+      "english": "Hyper Aqua Sac",
+      "type": "Item"
+    },
+    {
+      "id": 495,
+      "english": "Hyper Flood Sac",
+      "type": "Item"
+    },
+    {
+      "id": 496,
+      "english": "Hyper Fluid",
+      "type": "Item"
+    },
+    {
+      "id": 497,
+      "english": "Hyper Viscous Fluid",
+      "type": "Item"
+    },
+    {
+      "id": 498,
+      "english": "Hyper Electro Sac",
+      "type": "Item"
+    },
+    {
+      "id": 499,
+      "english": "Hyper Lightning Sac",
+      "type": "Item"
+    },
+    {
+      "id": 500,
+      "english": "Hyper Charged Shell",
+      "type": "Item"
+    },
+    {
+      "id": 501,
+      "english": "Hyper Amped Shell",
+      "type": "Item"
+    },
+    {
+      "id": 502,
+      "english": "Hyper Shockfur",
+      "type": "Item"
+    },
+    {
+      "id": 503,
+      "english": "Hyper Fluxfur",
+      "type": "Item"
+    },
+    {
+      "id": 504,
+      "english": "Hyper Ice Block",
+      "type": "Item"
+    },
+    {
+      "id": 505,
+      "english": "Hyper Ice Chunk",
+      "type": "Item"
+    },
+    {
+      "id": 506,
+      "english": "Hyper Draco. Scale",
+      "type": "Item"
+    },
+    {
+      "id": 507,
+      "english": "Hyper Draco. Scale+",
+      "type": "Item"
+    },
+    {
+      "id": 508,
+      "english": "Hyper Toxin",
+      "type": "Item"
+    },
+    {
+      "id": 509,
+      "english": "Hyper Potent Toxin",
+      "type": "Item"
+    },
+    {
+      "id": 510,
+      "english": "Hyper Paratoxin",
+      "type": "Item"
+    },
+    {
+      "id": 511,
+      "english": "Hyper Potent Paratoxin",
+      "type": "Item"
+    },
+    {
+      "id": 512,
+      "english": "Hyper Sleep Sac",
+      "type": "Item"
+    },
+    {
+      "id": 513,
+      "english": "Hyper Coma Sac",
+      "type": "Item"
+    },
+    {
+      "id": 514,
+      "english": "Hyper Narcotoxin",
+      "type": "Item"
+    },
+    {
+      "id": 515,
+      "english": "Hyper Potent Narcotoxin",
+      "type": "Item"
+    },
+    {
+      "id": 516,
+      "english": "Hyper Catalyst",
+      "type": "Item"
+    },
+    {
+      "id": 517,
+      "english": "Hyper Catalyst+",
+      "type": "Item"
+    },
+    {
+      "id": 518,
+      "english": "Felyne Fur Ruby",
+      "type": "Item"
+    },
+    {
+      "id": 520,
+      "english": "Larinoth Finehide",
+      "type": "Item"
+    },
+    {
+      "id": 521,
+      "english": "Gargwa Feather",
+      "type": "Item"
+    },
+    {
+      "id": 522,
+      "english": "Gargwa Finefeather",
+      "type": "Item"
+    },
+    {
+      "id": 524,
+      "english": "Moofah Fleeceball",
+      "type": "Item"
+    },
+    {
+      "id": 525,
+      "english": "Moofah Heavyhorn",
+      "type": "Item"
+    },
+    {
+      "id": 528,
+      "english": "High-quality Pelt",
+      "type": "Item"
+    },
+    {
+      "id": 529,
+      "english": "Prized Pelt",
+      "type": "Item"
+    },
+    {
+      "id": 530,
+      "english": "Anteka Antler",
+      "type": "Item"
+    },
+    {
+      "id": 531,
+      "english": "Anteka Proud Antler",
+      "type": "Item"
+    },
+    {
+      "id": 536,
+      "english": "Supple Piel",
+      "type": "Item"
+    },
+    {
+      "id": 542,
+      "english": "Bnahabra Wing",
+      "type": "Item"
+    },
+    {
+      "id": 543,
+      "english": "Bnahabra Razorwing",
+      "type": "Item"
+    },
+    {
+      "id": 544,
+      "english": "Altaroth Jaw",
+      "type": "Item"
+    },
+    {
+      "id": 545,
+      "english": "Altaroth Stomach",
+      "type": "Item"
+    },
+    {
+      "id": 546,
+      "english": "Quality Stomach",
+      "type": "Item"
+    },
+    {
+      "id": 547,
+      "english": "Premium Stomach",
+      "type": "Item"
+    },
+    {
+      "id": 550,
+      "english": "Vespoid Wing",
+      "type": "Item"
+    },
+    {
+      "id": 551,
+      "english": "Vespoid Innerwing",
+      "type": "Item"
+    },
+    {
+      "id": 552,
+      "english": "Vespoid Razorwing",
+      "type": "Item"
+    },
+    {
+      "id": 553,
+      "english": "Hornetaur Shell",
+      "type": "Item"
+    },
+    {
+      "id": 554,
+      "english": "Hornetaur Carapace",
+      "type": "Item"
+    },
+    {
+      "id": 555,
+      "english": "Hornetaur Wing",
+      "type": "Item"
+    },
+    {
+      "id": 556,
+      "english": "Hornetaur Innerwing",
+      "type": "Item"
+    },
+    {
+      "id": 557,
+      "english": "Hornetaur Razorwing",
+      "type": "Item"
+    },
+    {
+      "id": 558,
+      "english": "Hornetaur Head",
+      "type": "Item"
+    },
+    {
+      "id": 562,
+      "english": "Shocking Extract",
+      "type": "Item"
+    },
+    {
+      "id": 563,
+      "english": "Shocking Jelly",
+      "type": "Item"
+    },
+    {
+      "id": 566,
+      "english": "Remobra Finehide",
+      "type": "Item"
+    },
+    {
+      "id": 567,
+      "english": "Striped Skin",
+      "type": "Item"
+    },
+    {
+      "id": 568,
+      "english": "Striped Finehide",
+      "type": "Item"
+    },
+    {
+      "id": 569,
+      "english": "Remobra Head",
+      "type": "Item"
+    },
+    {
+      "id": 570,
+      "english": "Mighty Remobra Head",
+      "type": "Item"
+    },
+    {
+      "id": 576,
+      "english": "Great Maccao Scale",
+      "type": "Item"
+    },
+    {
+      "id": 577,
+      "english": "Great Maccao Scale+",
+      "type": "Item"
+    },
+    {
+      "id": 578,
+      "english": "Great Maccao Shard",
+      "type": "Item"
+    },
+    {
+      "id": 579,
+      "english": "Great Maccao Hide",
+      "type": "Item"
+    },
+    {
+      "id": 580,
+      "english": "Great Maccao Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 581,
+      "english": "Great Maccao Piel",
+      "type": "Item"
+    },
+    {
+      "id": 582,
+      "english": "Champion's Crest",
+      "type": "Item"
+    },
+    {
+      "id": 583,
+      "english": "Glorious Crest",
+      "type": "Item"
+    },
+    {
+      "id": 584,
+      "english": "Maccao Tailspike",
+      "type": "Item"
+    },
+    {
+      "id": 585,
+      "english": "Maccao Tailspear",
+      "type": "Item"
+    },
+    {
+      "id": 597,
+      "english": "Velocidrome Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 603,
+      "english": "Genprey Fang",
+      "type": "Item"
+    },
+    {
+      "id": 616,
+      "english": "Ioprey Fang",
+      "type": "Item"
+    },
+    {
+      "id": 645,
+      "english": "Arzuros Brace",
+      "type": "Item"
+    },
+    {
+      "id": 646,
+      "english": "Arzuros Brace+",
+      "type": "Item"
+    },
+    {
+      "id": 647,
+      "english": "Arzuros Allbrace",
+      "type": "Item"
+    },
+    {
+      "id": 655,
+      "english": "Redhelm Furyhair",
+      "type": "Item"
+    },
+    {
+      "id": 656,
+      "english": "Redhelm Zenith Furyhair",
+      "type": "Item"
+    },
+    {
+      "id": 672,
+      "english": "Snowbaron Plastron+",
+      "type": "Item"
+    },
+    {
+      "id": 673,
+      "english": "Snowbaron Cuirass",
+      "type": "Item"
+    },
+    {
+      "id": 688,
+      "english": "Kut-Ku Ear",
+      "type": "Item"
+    },
+    {
+      "id": 689,
+      "english": "Kut-Ku Auricle",
+      "type": "Item"
+    },
+    {
+      "id": 690,
+      "english": "Kut-Ku Luckear",
+      "type": "Item"
+    },
+    {
+      "id": 692,
+      "english": "Splendid Beak",
+      "type": "Item"
+    },
+    {
+      "id": 706,
+      "english": "Hyper Gypceros Piel",
+      "type": "Item"
+    },
+    {
+      "id": 707,
+      "english": "Azurefeather",
+      "type": "Item"
+    },
+    {
+      "id": 708,
+      "english": "Azurefeather+",
+      "type": "Item"
+    },
+    {
+      "id": 709,
+      "english": "Azure Plume",
+      "type": "Item"
+    },
+    {
+      "id": 712,
+      "english": "Malfestio Grandwing",
+      "type": "Item"
+    },
+    {
+      "id": 713,
+      "english": "Malfestio Wingtalon",
+      "type": "Item"
+    },
+    {
+      "id": 714,
+      "english": "Malfestio Wingtalon+",
+      "type": "Item"
+    },
+    {
+      "id": 715,
+      "english": "Malfestio Hrd Wingtalon",
+      "type": "Item"
+    },
+    {
+      "id": 718,
+      "english": "Malfestio Tailfeather",
+      "type": "Item"
+    },
+    {
+      "id": 719,
+      "english": "Malfestio Tailblade",
+      "type": "Item"
+    },
+    {
+      "id": 722,
+      "english": "Hyper Azurefeather",
+      "type": "Item"
+    },
+    {
+      "id": 723,
+      "english": "Hyper Azurefeather+",
+      "type": "Item"
+    },
+    {
+      "id": 724,
+      "english": "Nightcloak Plume",
+      "type": "Item"
+    },
+    {
+      "id": 725,
+      "english": "Nightcloak Grandwing",
+      "type": "Item"
+    },
+    {
+      "id": 726,
+      "english": "Nightcloak Clearscale",
+      "type": "Item"
+    },
+    {
+      "id": 733,
+      "english": "Garuga Ear",
+      "type": "Item"
+    },
+    {
+      "id": 734,
+      "english": "Garuga Auricle",
+      "type": "Item"
+    },
+    {
+      "id": 735,
+      "english": "Sharpened Beak",
+      "type": "Item"
+    },
+    {
+      "id": 741,
+      "english": "Garuga Mane",
+      "type": "Item"
+    },
+    {
+      "id": 742,
+      "english": "Garuga Silverpelt",
+      "type": "Item"
+    },
+    {
+      "id": 751,
+      "english": "Mosswine Hide",
+      "type": "Item"
+    },
+    {
+      "id": 752,
+      "english": "Mosswine Thick Hide",
+      "type": "Item"
+    },
+    {
+      "id": 753,
+      "english": "Bullfango Pelt",
+      "type": "Item"
+    },
+    {
+      "id": 754,
+      "english": "Bullfango Pelt+",
+      "type": "Item"
+    },
+    {
+      "id": 755,
+      "english": "Bullfango Thickfur",
+      "type": "Item"
+    },
+    {
+      "id": 758,
+      "english": "Bulldrome Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 759,
+      "english": "Bulldrome Thickhide",
+      "type": "Item"
+    },
+    {
+      "id": 795,
+      "english": "Kecha Ear+",
+      "type": "Item"
+    },
+    {
+      "id": 796,
+      "english": "Kecha Auricle",
+      "type": "Item"
+    },
+    {
+      "id": 804,
+      "english": "Cephalos Scale",
+      "type": "Item"
+    },
+    {
+      "id": 805,
+      "english": "Cephalos Scale+",
+      "type": "Item"
+    },
+    {
+      "id": 806,
+      "english": "Cephalos Shard",
+      "type": "Item"
+    },
+    {
+      "id": 807,
+      "english": "Cephalos Fin",
+      "type": "Item"
+    },
+    {
+      "id": 808,
+      "english": "Cephalos Fin+",
+      "type": "Item"
+    },
+    {
+      "id": 809,
+      "english": "Cephalos Grandfin",
+      "type": "Item"
+    },
+    {
+      "id": 810,
+      "english": "Cephalos Fang",
+      "type": "Item"
+    },
+    {
+      "id": 811,
+      "english": "Cephalos Fang+",
+      "type": "Item"
+    },
+    {
+      "id": 812,
+      "english": "Cephalos Hardfang",
+      "type": "Item"
+    },
+    {
+      "id": 821,
+      "english": "Plesioth Head",
+      "type": "Item"
+    },
+    {
+      "id": 822,
+      "english": "Uber Plesio Head",
+      "type": "Item"
+    },
+    {
+      "id": 835,
+      "english": "Hydro Hide",
+      "type": "Item"
+    },
+    {
+      "id": 836,
+      "english": "Hydro Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 837,
+      "english": "Hydro Piel",
+      "type": "Item"
+    },
+    {
+      "id": 838,
+      "english": "Immature Sponge",
+      "type": "Item"
+    },
+    {
+      "id": 839,
+      "english": "Spongy Hide",
+      "type": "Item"
+    },
+    {
+      "id": 840,
+      "english": "Spongy Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 841,
+      "english": "Spongy Piel",
+      "type": "Item"
+    },
+    {
+      "id": 863,
+      "english": "Nibelsnarf Talon",
+      "type": "Item"
+    },
+    {
+      "id": 868,
+      "english": "Dazzling Fluid",
+      "type": "Item"
+    },
+    {
+      "id": 869,
+      "english": "Hyper Nibelsnarf Shell",
+      "type": "Item"
+    },
+    {
+      "id": 886,
+      "english": "Lagiacrus Claw+",
+      "type": "Item"
+    },
+    {
+      "id": 887,
+      "english": "Lagiacrus Talon",
+      "type": "Item"
+    },
+    {
+      "id": 893,
+      "english": "Uroktor Scale",
+      "type": "Item"
+    },
+    {
+      "id": 894,
+      "english": "Uroktor Scale+",
+      "type": "Item"
+    },
+    {
+      "id": 895,
+      "english": "Uroktor Shard",
+      "type": "Item"
+    },
+    {
+      "id": 907,
+      "english": "Scalding Pleura+",
+      "type": "Item"
+    },
+    {
+      "id": 908,
+      "english": "Scorching Pleura",
+      "type": "Item"
+    },
+    {
+      "id": 909,
+      "english": "Hyper Agnaktor Shell",
+      "type": "Item"
+    },
+    {
+      "id": 920,
+      "english": "Tetsucabra Tusks",
+      "type": "Item"
+    },
+    {
+      "id": 936,
+      "english": "Drilltusk Tusk",
+      "type": "Item"
+    },
+    {
+      "id": 937,
+      "english": "Drilltusk Tusk+",
+      "type": "Item"
+    },
+    {
+      "id": 938,
+      "english": "Drilltusk Gnawrl",
+      "type": "Item"
+    },
+    {
+      "id": 939,
+      "english": "Sharqskin Scale",
+      "type": "Item"
+    },
+    {
+      "id": 940,
+      "english": "Meaty Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 941,
+      "english": "Zamtrios Hide+",
+      "type": "Item"
+    },
+    {
+      "id": 942,
+      "english": "Zamtrios Piel",
+      "type": "Item"
+    },
+    {
+      "id": 943,
+      "english": "Zamtrios Scale+",
+      "type": "Item"
+    },
+    {
+      "id": 944,
+      "english": "Zamtrios Shard",
+      "type": "Item"
+    },
+    {
+      "id": 945,
+      "english": "Zamtrios Fin+",
+      "type": "Item"
+    },
+    {
+      "id": 946,
+      "english": "Zamtrios Grandfin",
+      "type": "Item"
+    },
+    {
+      "id": 947,
+      "english": "Zamtrios Sawtooth",
+      "type": "Item"
+    },
+    {
+      "id": 948,
+      "english": "Zamtrios Sawtooth+",
+      "type": "Item"
+    },
+    {
+      "id": 949,
+      "english": "Zamtrios Tailblade",
+      "type": "Item"
+    },
+    {
+      "id": 950,
+      "english": "Zamtrios Tailbrand",
+      "type": "Item"
+    },
+    {
+      "id": 951,
+      "english": "Hyper Zamtrios Hide",
+      "type": "Item"
+    },
+    {
+      "id": 952,
+      "english": "Hyper Zamtrios Piel",
+      "type": "Item"
+    },
+    {
+      "id": 966,
+      "english": "Heart-stopping Beak",
+      "type": "Item"
+    },
+    {
+      "id": 967,
+      "english": "Hyper Najarala Shell",
+      "type": "Item"
+    },
+    {
+      "id": 971,
+      "english": "Wyvern Scalp",
+      "type": "Item"
+    },
+    {
+      "id": 972,
+      "english": "Heavy Wyvern Scalp",
+      "type": "Item"
+    },
+    {
+      "id": 975,
+      "english": "Sm. Hermitaur Shell",
+      "type": "Item"
+    },
+    {
+      "id": 976,
+      "english": "Tiny Hermitaur Shell",
+      "type": "Item"
+    },
+    {
+      "id": 983,
+      "english": "Hyper Hermitaur Scale",
+      "type": "Item"
+    },
+    {
+      "id": 990,
+      "english": "Stonefist Talon",
+      "type": "Item"
+    },
+    {
+      "id": 991,
+      "english": "Small Ceanataur Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1001,
+      "english": "Hyper Ceanataur Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1003,
+      "english": "Heavy Rustrazor Scalp",
+      "type": "Item"
+    },
+    {
+      "id": 1033,
+      "english": "Hyper S.Queen Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1039,
+      "english": "Barroth Claw+",
+      "type": "Item"
+    },
+    {
+      "id": 1040,
+      "english": "Barroth Talon",
+      "type": "Item"
+    },
+    {
+      "id": 1045,
+      "english": "Fertile Mud",
+      "type": "Item"
+    },
+    {
+      "id": 1053,
+      "english": "Uragaan Jaw",
+      "type": "Item"
+    },
+    {
+      "id": 1054,
+      "english": "Uragaan Jaw+",
+      "type": "Item"
+    },
+    {
+      "id": 1055,
+      "english": "Uragaan Scute",
+      "type": "Item"
+    },
+    {
+      "id": 1056,
+      "english": "Uragaan Scute+",
+      "type": "Item"
+    },
+    {
+      "id": 1066,
+      "english": "Crystalbeard Maw",
+      "type": "Item"
+    },
+    {
+      "id": 1067,
+      "english": "Crystalbeard Mandible",
+      "type": "Item"
+    },
+    {
+      "id": 1068,
+      "english": "Treasure Nugget",
+      "type": "Item"
+    },
+    {
+      "id": 1069,
+      "english": "Large Treasure Nugget",
+      "type": "Item"
+    },
+    {
+      "id": 1073,
+      "english": "Brach Ebonshell",
+      "type": "Item"
+    },
+    {
+      "id": 1074,
+      "english": "Brach Ebonshell+",
+      "type": "Item"
+    },
+    {
+      "id": 1075,
+      "english": "Fine Brach Ebonshell",
+      "type": "Item"
+    },
+    {
+      "id": 1077,
+      "english": "Brach Scalp+",
+      "type": "Item"
+    },
+    {
+      "id": 1078,
+      "english": "Brach Crown",
+      "type": "Item"
+    },
+    {
+      "id": 1079,
+      "english": "Brach Warhead",
+      "type": "Item"
+    },
+    {
+      "id": 1080,
+      "english": "Mystery Slime",
+      "type": "Item"
+    },
+    {
+      "id": 1082,
+      "english": "Flashpoint Slime",
+      "type": "Item"
+    },
+    {
+      "id": 1083,
+      "english": "Brach Hammer",
+      "type": "Item"
+    },
+    {
+      "id": 1084,
+      "english": "Brach Pounder",
+      "type": "Item"
+    },
+    {
+      "id": 1085,
+      "english": "Brach Pounder+",
+      "type": "Item"
+    },
+    {
+      "id": 1086,
+      "english": "Brach Obliterator",
+      "type": "Item"
+    },
+    {
+      "id": 1093,
+      "english": "Hyper Brach Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1099,
+      "english": "Duramboros Hump",
+      "type": "Item"
+    },
+    {
+      "id": 1100,
+      "english": "Marbled Hump",
+      "type": "Item"
+    },
+    {
+      "id": 1101,
+      "english": "Duram Tailcase+",
+      "type": "Item"
+    },
+    {
+      "id": 1102,
+      "english": "Duram Hardtail",
+      "type": "Item"
+    },
+    {
+      "id": 1105,
+      "english": "Duram Sacrum",
+      "type": "Item"
+    },
+    {
+      "id": 1106,
+      "english": "Durambolite",
+      "type": "Item"
+    },
+    {
+      "id": 1107,
+      "english": "Hyper Duram Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1114,
+      "english": "Khezu Special Cut",
+      "type": "Item"
+    },
+    {
+      "id": 1115,
+      "english": "Hyper Khezu Hide",
+      "type": "Item"
+    },
+    {
+      "id": 1116,
+      "english": "Hyper Khezu Glosshide",
+      "type": "Item"
+    },
+    {
+      "id": 1142,
+      "english": "Silverwind Blackfur+",
+      "type": "Item"
+    },
+    {
+      "id": 1143,
+      "english": "Silverwind Blackpelage",
+      "type": "Item"
+    },
+    {
+      "id": 1150,
+      "english": "Amber Fang+",
+      "type": "Item"
+    },
+    {
+      "id": 1151,
+      "english": "Amber Hardfang",
+      "type": "Item"
+    },
+    {
+      "id": 1230,
+      "english": "Hyper S.Rath. Scale",
+      "type": "Item"
+    },
+    {
+      "id": 1231,
+      "english": "Hyper S.Rath. Shard",
+      "type": "Item"
+    },
+    {
+      "id": 1253,
+      "english": "Zinogre Shocker+",
+      "type": "Item"
+    },
+    {
+      "id": 1254,
+      "english": "Zinogre D-Shocker",
+      "type": "Item"
+    },
+    {
+      "id": 1258,
+      "english": "Hyper Zinogre Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1264,
+      "english": "Thunderlord Electrofur",
+      "type": "Item"
+    },
+    {
+      "id": 1265,
+      "english": "Thunderlord Boltfur",
+      "type": "Item"
+    },
+    {
+      "id": 1267,
+      "english": "Thunderlord Horn+",
+      "type": "Item"
+    },
+    {
+      "id": 1268,
+      "english": "Thunderlord Gleamhorn",
+      "type": "Item"
+    },
+    {
+      "id": 1275,
+      "english": "Astalos Membrane",
+      "type": "Item"
+    },
+    {
+      "id": 1276,
+      "english": "Astalos Membrane+",
+      "type": "Item"
+    },
+    {
+      "id": 1277,
+      "english": "Astalos Wingmembrane",
+      "type": "Item"
+    },
+    {
+      "id": 1278,
+      "english": "Astalos Wingtalon",
+      "type": "Item"
+    },
+    {
+      "id": 1279,
+      "english": "Astalos Wingtalon+",
+      "type": "Item"
+    },
+    {
+      "id": 1280,
+      "english": "Astalos Wingripper",
+      "type": "Item"
+    },
+    {
+      "id": 1281,
+      "english": "Astalos Crest",
+      "type": "Item"
+    },
+    {
+      "id": 1282,
+      "english": "Astalos Crest+",
+      "type": "Item"
+    },
+    {
+      "id": 1283,
+      "english": "Heavy Astalos Crest+",
+      "type": "Item"
+    },
+    {
+      "id": 1286,
+      "english": "Electroscale",
+      "type": "Item"
+    },
+    {
+      "id": 1287,
+      "english": "Electroscale+",
+      "type": "Item"
+    },
+    {
+      "id": 1288,
+      "english": "Boltscale",
+      "type": "Item"
+    },
+    {
+      "id": 1295,
+      "english": "Heavy Boltreaver Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1296,
+      "english": "Boltreaver Electric Barb",
+      "type": "Item"
+    },
+    {
+      "id": 1309,
+      "english": "Snowclod",
+      "type": "Item"
+    },
+    {
+      "id": 1310,
+      "english": "Large Snowclod",
+      "type": "Item"
+    },
+    {
+      "id": 1311,
+      "english": "Giant Snowclod",
+      "type": "Item"
+    },
+    {
+      "id": 1315,
+      "english": "Hyper Gammoth Fur",
+      "type": "Item"
+    },
+    {
+      "id": 1316,
+      "english": "Hyper Gammoth Fur X",
+      "type": "Item"
+    },
+    {
+      "id": 1317,
+      "english": "Elderfrost Pelt",
+      "type": "Item"
+    },
+    {
+      "id": 1318,
+      "english": "Elderfrost Cortex",
+      "type": "Item"
+    },
+    {
+      "id": 1319,
+      "english": "Elderfrost Trunkspine",
+      "type": "Item"
+    },
+    {
+      "id": 1341,
+      "english": "Hyper Mizutsune Scale X",
+      "type": "Item"
+    },
+    {
+      "id": 1343,
+      "english": "Soulseer Purplehide",
+      "type": "Item"
+    },
+    {
+      "id": 1361,
+      "english": "Solar Bursa",
+      "type": "Item"
+    },
+    {
+      "id": 1367,
+      "english": "Hyper Glavenus Scale X",
+      "type": "Item"
+    },
+    {
+      "id": 1374,
+      "english": "Hellblade Powder",
+      "type": "Item"
+    },
+    {
+      "id": 1390,
+      "english": "Tigrex Maw",
+      "type": "Item"
+    },
+    {
+      "id": 1393,
+      "english": "Hyper Tigrex Scale X",
+      "type": "Item"
+    },
+    {
+      "id": 1400,
+      "english": "Grimclaw Talon",
+      "type": "Item"
+    },
+    {
+      "id": 1401,
+      "english": "Grimclaw Talon+",
+      "type": "Item"
+    },
+    {
+      "id": 1402,
+      "english": "Grimclaw Hardclaw",
+      "type": "Item"
+    },
+    {
+      "id": 1423,
+      "english": "Hyper Seregios Scale X",
+      "type": "Item"
+    },
+    {
+      "id": 1428,
+      "english": "Twisted Horn",
+      "type": "Item"
+    },
+    {
+      "id": 1429,
+      "english": "Majestic Horn",
+      "type": "Item"
+    },
+    {
+      "id": 1430,
+      "english": "Diablos Hardhorn",
+      "type": "Item"
+    },
+    {
+      "id": 1437,
+      "english": "Bloodbath Chine",
+      "type": "Item"
+    },
+    {
+      "id": 1438,
+      "english": "Bloodbath Grimhorn",
+      "type": "Item"
+    },
+    {
+      "id": 1448,
+      "english": "Antinomic Wing",
+      "type": "Item"
+    },
+    {
+      "id": 1455,
+      "english": "Contrary Scale",
+      "type": "Item"
+    },
+    {
+      "id": 1461,
+      "english": "Diametrical Horn",
+      "type": "Item"
+    },
+    {
+      "id": 1462,
+      "english": "Defiled Scale",
+      "type": "Item"
+    },
+    {
+      "id": 1463,
+      "english": "Chaos Scale",
+      "type": "Item"
+    },
+    {
+      "id": 1464,
+      "english": "Hyper G.Magala Scale",
+      "type": "Item"
+    },
+    {
+      "id": 1465,
+      "english": "Hyper G.Magala Scale X",
+      "type": "Item"
+    },
+    {
+      "id": 1472,
+      "english": "S.Magala Prismwing",
+      "type": "Item"
+    },
+    {
+      "id": 1473,
+      "english": "S.Magala Prismwing+",
+      "type": "Item"
+    },
+    {
+      "id": 1474,
+      "english": "S.Magala Lightwing",
+      "type": "Item"
+    },
+    {
+      "id": 1475,
+      "english": "S.Magala Caress",
+      "type": "Item"
+    },
+    {
+      "id": 1476,
+      "english": "S.Magala Caress+",
+      "type": "Item"
+    },
+    {
+      "id": 1477,
+      "english": "S.Magala Purifier",
+      "type": "Item"
+    },
+    {
+      "id": 1481,
+      "english": "S.Magala Phosgem",
+      "type": "Item"
+    },
+    {
+      "id": 1486,
+      "english": "Pure Scale",
+      "type": "Item"
+    },
+    {
+      "id": 1502,
+      "english": "Ghoulish Gold Horn",
+      "type": "Item"
+    },
+    {
+      "id": 1503,
+      "english": "Ghoulish Gold Gorer",
+      "type": "Item"
+    },
+    {
+      "id": 1504,
+      "english": "Hyper Rajang Fur",
+      "type": "Item"
+    },
+    {
+      "id": 1505,
+      "english": "Hyper Rajang Fur X",
+      "type": "Item"
+    },
+    {
+      "id": 1520,
+      "english": "Deviljho Saliva",
+      "type": "Item"
+    },
+    {
+      "id": 1521,
+      "english": "Black Blood",
+      "type": "Item"
+    },
+    {
+      "id": 1525,
+      "english": "Hyper Deviljho Scale X",
+      "type": "Item"
+    },
+    {
+      "id": 1531,
+      "english": "Platinum Mane",
+      "type": "Item"
+    },
+    {
+      "id": 1571,
+      "english": "Teostra Mane",
+      "type": "Item"
+    },
+    {
+      "id": 1585,
+      "english": "Teostra Gem",
+      "type": "Item"
+    },
+    {
+      "id": 1586,
+      "english": "Wyvern Crystal",
+      "type": "Item"
+    },
+    {
+      "id": 1587,
+      "english": "Great Wyvern Crystal",
+      "type": "Item"
+    },
+    {
+      "id": 1595,
+      "english": "Akantor Shredtalon",
+      "type": "Item"
+    },
+    {
+      "id": 1596,
+      "english": "Akantor Tallfang",
+      "type": "Item"
+    },
+    {
+      "id": 1597,
+      "english": "Akantor Greatfang",
+      "type": "Item"
+    },
+    {
+      "id": 1601,
+      "english": "Conquest Sphere",
+      "type": "Item"
+    },
+    {
+      "id": 1604,
+      "english": "Ukanlos Underscale",
+      "type": "Item"
+    },
+    {
+      "id": 1605,
+      "english": "Ukanlos Underscale+",
+      "type": "Item"
+    },
+    {
+      "id": 1610,
+      "english": "Ukanlos Shoveljaw",
+      "type": "Item"
+    },
+    {
+      "id": 1611,
+      "english": "Ukanlos Shoveljaw+",
+      "type": "Item"
+    },
+    {
+      "id": 1615,
+      "english": "Ukanlos Stone",
+      "type": "Item"
+    },
+    {
+      "id": 1623,
+      "english": "Alatreo Direwing",
+      "type": "Item"
+    },
+    {
+      "id": 1626,
+      "english": "Broken Skypiercer",
+      "type": "Item"
+    },
+    {
+      "id": 1627,
+      "english": "Skypiercer",
+      "type": "Item"
+    },
+    {
+      "id": 1628,
+      "english": "Skyswayer",
+      "type": "Item"
+    },
+    {
+      "id": 1643,
+      "english": "Storm Vesicle",
+      "type": "Item"
+    },
+    {
+      "id": 1644,
+      "english": "Storm Vesicle Clump",
+      "type": "Item"
+    },
+    {
+      "id": 1645,
+      "english": "Heavenly Dragongem",
+      "type": "Item"
+    },
+    {
+      "id": 1646,
+      "english": "Heavenly Dragonsphire",
+      "type": "Item"
+    },
+    {
+      "id": 1647,
+      "english": "Dragon Healing Crystal",
+      "type": "Item"
+    },
+    {
+      "id": 1660,
+      "english": "Crimson Fatalis Horn",
+      "type": "Item"
+    },
+    {
+      "id": 1668,
+      "english": "Nakarkos Husk",
+      "type": "Item"
+    },
+    {
+      "id": 1669,
+      "english": "Nakarkos Husk+",
+      "type": "Item"
+    },
+    {
+      "id": 1671,
+      "english": "Nakarkos Shell",
+      "type": "Item"
+    },
+    {
+      "id": 1672,
+      "english": "Nakarkos Shell+",
+      "type": "Item"
+    },
+    {
+      "id": 1674,
+      "english": "Nakarkos Skull",
+      "type": "Item"
+    },
+    {
+      "id": 1675,
+      "english": "Nakarkos Hardskull",
+      "type": "Item"
+    },
+    {
+      "id": 1676,
+      "english": "Nakarkos Vertebra",
+      "type": "Item"
+    },
+    {
+      "id": 1677,
+      "english": "Nakarkos Hardvertebra",
+      "type": "Item"
+    },
+    {
+      "id": 1678,
+      "english": "Nakarkos Hide",
+      "type": "Item"
+    },
+    {
+      "id": 1679,
+      "english": "Nakarkos Azurehide",
+      "type": "Item"
+    },
+    {
+      "id": 1680,
+      "english": "Nakarkos Arm Brace",
+      "type": "Item"
+    },
+    {
+      "id": 1681,
+      "english": "Scary Nakarkos ArmBrce",
+      "type": "Item"
+    },
+    {
+      "id": 1682,
+      "english": "Nakarkos Fang",
+      "type": "Item"
+    },
+    {
+      "id": 1685,
+      "english": "Nakarkos Soul Orb",
+      "type": "Item"
+    },
+    {
+      "id": 1686,
+      "english": "Nakarkos SecretSoulOrb",
+      "type": "Item"
+    },
+    {
+      "id": 1687,
+      "english": "Radiant Mucus",
+      "type": "Item"
+    },
+    {
+      "id": 1688,
+      "english": "Radiant Mucus+",
+      "type": "Item"
+    },
+    {
+      "id": 1689,
+      "english": "Viscous Radiant Mucus",
+      "type": "Item"
+    },
+    {
+      "id": 1704,
+      "english": "Burned Husk",
+      "type": "Item"
+    },
+    {
+      "id": 1706,
+      "english": "Golden Silk",
+      "type": "Item"
+    },
+    {
+      "id": 1707,
+      "english": "Ahtal-Ka Gold Cocoon",
+      "type": "Item"
+    },
+    {
+      "id": 1708,
+      "english": "Ahtal-Ka Purple Cocoon",
+      "type": "Item"
+    },
+    {
+      "id": 1709,
+      "english": "Ahtal-Ka Foreblade",
+      "type": "Item"
+    },
+    {
+      "id": 1710,
+      "english": "Iridescent Carapace",
+      "type": "Item"
+    },
+    {
+      "id": 1711,
+      "english": "Ahtal-Ka Pheromone",
+      "type": "Item"
+    },
+    {
+      "id": 1712,
+      "english": "Ahtal-Ka Fine Silk",
+      "type": "Item"
+    },
+    {
+      "id": 1713,
+      "english": "Ahtal-Ka Alluring Gem",
+      "type": "Item"
+    },
+    {
+      "id": 1714,
+      "english": "Royal Pyroxene",
+      "type": "Item"
+    },
+    {
+      "id": 1715,
+      "english": "Map",
+      "type": "Item"
+    },
+    {
+      "id": 1716,
+      "english": "First-aid Med",
+      "type": "Item"
+    },
+    {
+      "id": 1717,
+      "english": "First-aid Med+",
+      "type": "Item"
+    },
+    {
+      "id": 1719,
+      "english": "Portable Spit",
+      "type": "Item"
+    },
+    {
+      "id": 1720,
+      "english": "Mini Whetstone",
+      "type": "Item"
+    },
+    {
+      "id": 1721,
+      "english": "EZ Shock Trap",
+      "type": "Item"
+    },
+    {
+      "id": 1722,
+      "english": "EZ Flash Bomb",
+      "type": "Item"
+    },
+    {
+      "id": 1723,
+      "english": "EZ Sonic Bomb",
+      "type": "Item"
+    },
+    {
+      "id": 1724,
+      "english": "EZ Max Potion",
+      "type": "Item"
+    },
+    {
+      "id": 1725,
+      "english": "EZ Lifepowder",
+      "type": "Item"
+    },
+    {
+      "id": 1726,
+      "english": "EZ Dust of Life",
+      "type": "Item"
+    },
+    {
+      "id": 1727,
+      "english": "EZ Pitfall Trap",
+      "type": "Item"
+    },
+    {
+      "id": 1728,
+      "english": "EZ Barrel Bomb L",
+      "type": "Item"
+    },
+    {
+      "id": 1729,
+      "english": "EZ Hunter's Drink",
+      "type": "Item"
+    },
+    {
+      "id": 1731,
+      "english": "One-shot Binder",
+      "type": "Item"
+    },
+    {
+      "id": 1732,
+      "english": "Anti-dragon Bomb",
+      "type": "Item"
+    },
+    {
+      "id": 1733,
+      "english": "Dense Marcoal",
+      "type": "Item"
+    },
+    {
+      "id": 1734,
+      "english": "Paw Pass Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1735,
+      "english": "EZ Farcaster",
+      "type": "Item"
+    },
+    {
+      "id": 1736,
+      "english": "Rusted Fragment",
+      "type": "Item"
+    },
+    {
+      "id": 1737,
+      "english": "Ancient Fragment",
+      "type": "Item"
+    },
+    {
+      "id": 1738,
+      "english": "Mythical Fragment",
+      "type": "Item"
+    },
+    {
+      "id": 1739,
+      "english": "Sinister Cloth",
+      "type": "Item"
+    },
+    {
+      "id": 1740,
+      "english": "Sinister Darkcloth",
+      "type": "Item"
+    },
+    {
+      "id": 1741,
+      "english": "Sinister Gloomcloth",
+      "type": "Item"
+    },
+    {
+      "id": 1742,
+      "english": "Extravagant Artifact",
+      "type": "Item"
+    },
+    {
+      "id": 1743,
+      "english": "Opulent Artifact",
+      "type": "Item"
+    },
+    {
+      "id": 1744,
+      "english": "Decadent Artifact",
+      "type": "Item"
+    },
+    {
+      "id": 1745,
+      "english": "Broken Statue",
+      "type": "Item"
+    },
+    {
+      "id": 1746,
+      "english": "Large Broken Statue",
+      "type": "Item"
+    },
+    {
+      "id": 1747,
+      "english": "Broken Cat God Statue",
+      "type": "Item"
+    },
+    {
+      "id": 1748,
+      "english": "Dark Piece",
+      "type": "Item"
+    },
+    {
+      "id": 1749,
+      "english": "Dark Stone",
+      "type": "Item"
+    },
+    {
+      "id": 1750,
+      "english": "Felyne Kettle",
+      "type": "Item"
+    },
+    {
+      "id": 1751,
+      "english": "Yukumo Riceflour",
+      "type": "Item"
+    },
+    {
+      "id": 1752,
+      "english": "Doll Parts",
+      "type": "Item"
+    },
+    {
+      "id": 1753,
+      "english": "Weapon Codex",
+      "type": "Item"
+    },
+    {
+      "id": 1754,
+      "english": "Bowgun Codex",
+      "type": "Item"
+    },
+    {
+      "id": 1755,
+      "english": "Deluxe Barrel Timber",
+      "type": "Item"
+    },
+    {
+      "id": 1756,
+      "english": "Ancient Talisman",
+      "type": "Item"
+    },
+    {
+      "id": 1757,
+      "english": "Damaged Amber",
+      "type": "Item"
+    },
+    {
+      "id": 1758,
+      "english": "Cloudy Fragment",
+      "type": "Item"
+    },
+    {
+      "id": 1759,
+      "english": "Strange Mask",
+      "type": "Item"
+    },
+    {
+      "id": 1760,
+      "english": "Sunmarge Crystal",
+      "type": "Item"
+    },
+    {
+      "id": 1761,
+      "english": "Ocean Pyroxene",
+      "type": "Item"
+    },
+    {
+      "id": 1762,
+      "english": "Fluffy White Ball",
+      "type": "Item"
+    },
+    {
+      "id": 1763,
+      "english": "Fluffy Black Ball",
+      "type": "Item"
+    },
+    {
+      "id": 1764,
+      "english": "Fusion Material - Head",
+      "type": "Item"
+    },
+    {
+      "id": 1765,
+      "english": "Fusion Material - Chest",
+      "type": "Item"
+    },
+    {
+      "id": 1766,
+      "english": "Fusion Material - Arms",
+      "type": "Item"
+    },
+    {
+      "id": 1767,
+      "english": "Fusion Material - Waist",
+      "type": "Item"
+    },
+    {
+      "id": 1768,
+      "english": "Fusion Material - Legs",
+      "type": "Item"
+    },
+    {
+      "id": 1769,
+      "english": "F Fusion Material - Head",
+      "type": "Item"
+    },
+    {
+      "id": 1770,
+      "english": "F Fusion Material - Chest",
+      "type": "Item"
+    },
+    {
+      "id": 1771,
+      "english": "Voucher",
+      "type": "Item"
+    },
+    {
+      "id": 1772,
+      "english": "Gourmet Voucher",
+      "type": "Item"
+    },
+    {
+      "id": 1773,
+      "english": "Commendation",
+      "type": "Item"
+    },
+    {
+      "id": 1774,
+      "english": "Commendation G",
+      "type": "Item"
+    },
+    {
+      "id": 1775,
+      "english": "Commendation XX",
+      "type": "Item"
+    },
+    {
+      "id": 1776,
+      "english": "Accolade",
+      "type": "Item"
+    },
+    {
+      "id": 1777,
+      "english": "Accolade G",
+      "type": "Item"
+    },
+    {
+      "id": 1778,
+      "english": "Accolade XX",
+      "type": "Item"
+    },
+    {
+      "id": 1779,
+      "english": "Distinction",
+      "type": "Item"
+    },
+    {
+      "id": 1780,
+      "english": "Privilege",
+      "type": "Item"
+    },
+    {
+      "id": 1781,
+      "english": "Privilege G",
+      "type": "Item"
+    },
+    {
+      "id": 1782,
+      "english": "Triumph",
+      "type": "Item"
+    },
+    {
+      "id": 1783,
+      "english": "Pawprint Stamp",
+      "type": "Item"
+    },
+    {
+      "id": 1784,
+      "english": "Pawprint Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1785,
+      "english": "Bherna Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1786,
+      "english": "Bherna Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1787,
+      "english": "Kokoto Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1788,
+      "english": "Kokoto Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1789,
+      "english": "Pokke Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1790,
+      "english": "Pokke Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1791,
+      "english": "Yukumo Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1792,
+      "english": "Yukumo Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1793,
+      "english": "Wycademy Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1794,
+      "english": "Wycademy Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1795,
+      "english": "Soaratorium Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1796,
+      "english": "Pub Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1797,
+      "english": "Palico Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1798,
+      "english": "Palico Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1799,
+      "english": "Airship Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1800,
+      "english": "Airship Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1801,
+      "english": "Bistro Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1802,
+      "english": "Bistro Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1803,
+      "english": "Trade Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1804,
+      "english": "Footbath Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1805,
+      "english": "Bronze Guild Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1806,
+      "english": "Gold Guild Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1807,
+      "english": "Blackbelt Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1808,
+      "english": "Expert Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1809,
+      "english": "Expert Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1810,
+      "english": "Legend Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1811,
+      "english": "Legend Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 1812,
+      "english": "VE Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1813,
+      "english": "VE Deluxe Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1814,
+      "english": "VE Bronze Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1815,
+      "english": "VE Silver Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1816,
+      "english": "VE Golden Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1817,
+      "english": "VE Cosmic Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1818,
+      "english": "EX Rathalos Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1819,
+      "english": "EX Rathalos Ticket S",
+      "type": "Item"
+    },
+    {
+      "id": 1820,
+      "english": "EX Lavasioth Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1821,
+      "english": "EX Tigrex Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1822,
+      "english": "EX Tigrex Ticket S",
+      "type": "Item"
+    },
+    {
+      "id": 1823,
+      "english": "EX Zinogre Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1824,
+      "english": "EX Brachydios Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1825,
+      "english": "EX Gore Magala Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1826,
+      "english": "EX S.Magala Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1827,
+      "english": "EX Daora Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1828,
+      "english": "EX Chameleos Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1829,
+      "english": "EX Teostra Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1830,
+      "english": "EX G.Rathian Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1831,
+      "english": "EX S.Rathalos Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1832,
+      "english": "EX Congalala Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1833,
+      "english": "EX Lao-Shan Lung Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1834,
+      "english": "EX C.Fatalis Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1835,
+      "english": "EX Old Fatalis Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 1836,
+      "english": "EX Lao-Shan Ticket S",
+      "type": "Item"
+    },
+    {
+      "id": 1837,
+      "english": "Hyper Hunter I",
+      "type": "Item"
+    },
+    {
+      "id": 1838,
+      "english": "Hyper Hunter II",
+      "type": "Item"
+    },
+    {
+      "id": 1839,
+      "english": "Hyper Hunter III",
+      "type": "Item"
+    },
+    {
+      "id": 1840,
+      "english": "Hyper Hunter IV",
+      "type": "Item"
+    },
+    {
+      "id": 1841,
+      "english": "Hyper Hunter V",
+      "type": "Item"
+    },
+    {
+      "id": 1842,
+      "english": "Hyper Hunter VI",
+      "type": "Item"
+    },
+    {
+      "id": 2055,
+      "english": "Choice Mushroom",
+      "type": "Item"
+    },
+    {
+      "id": 2056,
+      "english": "Ripened Mushroom",
+      "type": "Item"
+    },
+    {
+      "id": 2058,
+      "english": "Abyssal Mushroom",
+      "type": "Item"
+    },
+    {
+      "id": 2062,
+      "english": "Unique Fern",
+      "type": "Item"
+    },
+    {
+      "id": 2064,
+      "english": "Goldenfish",
+      "type": "Item"
+    },
+    {
+      "id": 2066,
+      "english": "Brocadefish",
+      "type": "Item"
+    },
+    {
+      "id": 2067,
+      "english": "King Brocadefish",
+      "type": "Item"
+    },
+    {
+      "id": 2068,
+      "english": "Premium Sashimi",
+      "type": "Item"
+    },
+    {
+      "id": 2073,
+      "english": "Immortal Moth",
+      "type": "Item"
+    },
+    {
+      "id": 2074,
+      "english": "Large Immortal Moth",
+      "type": "Item"
+    },
+    {
+      "id": 2083,
+      "english": "Deep Bloodstone",
+      "type": "Item"
+    },
+    {
+      "id": 2088,
+      "english": "White Liver",
+      "type": "Item"
+    },
+    {
+      "id": 2089,
+      "english": "Slagtoth Oil",
+      "type": "Item"
+    },
+    {
+      "id": 2091,
+      "english": "Round Acorn",
+      "type": "Item"
+    },
+    {
+      "id": 2092,
+      "english": "Fine Stomach",
+      "type": "Item"
+    },
+    {
+      "id": 2093,
+      "english": "Luminous Stomach",
+      "type": "Item"
+    },
+    {
+      "id": 2094,
+      "english": "Monster Guts",
+      "type": "Item"
+    },
+    {
+      "id": 2095,
+      "english": "Piscine Liver",
+      "type": "Item"
+    },
+    {
+      "id": 2096,
+      "english": "Popo Tongue",
+      "type": "Item"
+    },
+    {
+      "id": 2097,
+      "english": "Apceros Liver",
+      "type": "Item"
+    },
+    {
+      "id": 2098,
+      "english": "Ancient Berry",
+      "type": "Item"
+    },
+    {
+      "id": 2100,
+      "english": "Water Lily Tuber",
+      "type": "Item"
+    },
+    {
+      "id": 2101,
+      "english": "Moofah Fur",
+      "type": "Item"
+    },
+    {
+      "id": 2105,
+      "english": "Gargwa Egg",
+      "type": "Item"
+    },
+    {
+      "id": 2107,
+      "english": "Wyvern Egg",
+      "type": "Item"
+    },
+    {
+      "id": 2109,
+      "english": "Quartz Ore",
+      "type": "Item"
+    },
+    {
+      "id": 2111,
+      "english": "Carnivore Egg",
+      "type": "Item"
+    },
+    {
+      "id": 2112,
+      "english": "Meteor Chunk",
+      "type": "Item"
+    },
+    {
+      "id": 2113,
+      "english": "Eternal Fossil",
+      "type": "Item"
+    },
+    {
+      "id": 2114,
+      "english": "Herbivore Egg",
+      "type": "Item"
+    },
+    {
+      "id": 2115,
+      "english": "Cannon Ammo",
+      "type": "Item"
+    },
+    {
+      "id": 2116,
+      "english": "Guild Flag",
+      "type": "Item"
+    },
+    {
+      "id": 2138,
+      "english": "Khezu Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2139,
+      "english": "Najarala Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2140,
+      "english": "Rathalos Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2141,
+      "english": "Kecha Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2142,
+      "english": "Plesioth Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2143,
+      "english": "Brachydios Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2144,
+      "english": "Gypceros Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2145,
+      "english": "Drome Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2146,
+      "english": "Garuga Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2147,
+      "english": "Uragaan Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2148,
+      "english": "Seregios Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2149,
+      "english": "Tetsucabra Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2150,
+      "english": "Congalala Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2151,
+      "english": "Horns Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2152,
+      "english": "Humble Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2153,
+      "english": "Humble Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2154,
+      "english": "Heavy Humble Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2155,
+      "english": "Handsome Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2156,
+      "english": "Handsome Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2157,
+      "english": "Heavy Handsome Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2160,
+      "english": "Heavy Ore Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2161,
+      "english": "Insect Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2162,
+      "english": "Insect Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2163,
+      "english": "Heavy Insect Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2166,
+      "english": "Heavy Bone Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2167,
+      "english": "Wood Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2168,
+      "english": "Wood Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2169,
+      "english": "Heavy Wood Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2170,
+      "english": "Fur Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2171,
+      "english": "Fur Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2172,
+      "english": "Heavy Fur Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2175,
+      "english": "Heavy Rhenoplos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2179,
+      "english": "Heavy Bnahabra Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2180,
+      "english": "Great Jaggi Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2181,
+      "english": "Great Jaggi Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2182,
+      "english": "Hvy Great Jaggi Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2185,
+      "english": "Heavy Maccao Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2188,
+      "english": "Heavy Velociprey Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2190,
+      "english": "Heavy Giaprey Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2193,
+      "english": "Heavy Genprey Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2196,
+      "english": "Heavy Ioprey Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2199,
+      "english": "Heavy Arzuros Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2201,
+      "english": "Prime Redhelm Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2202,
+      "english": "Elite Redhelm Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2203,
+      "english": "Perfect Redhelm Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2206,
+      "english": "Heavy Lagombi Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2208,
+      "english": "Prime Snowbaron Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2209,
+      "english": "Elite Snowbaron Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2210,
+      "english": "Perfect Snowbaron Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2213,
+      "english": "Heavy Volvidon Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2216,
+      "english": "Heavy Yian Kut-Ku Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2217,
+      "english": "Hyper Kut-Ku Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2218,
+      "english": "Hyper Kut-Ku Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2221,
+      "english": "Heavy Gypceros Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2222,
+      "english": "Hyper Gypceros Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2223,
+      "english": "Hyper Gypceros Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2226,
+      "english": "Heavy Malfestio Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2227,
+      "english": "Hyper Malfestio Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2228,
+      "english": "Hyper Malfestio Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2229,
+      "english": "Elite Nightcloak Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2230,
+      "english": "Perf. Nightcloak Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2233,
+      "english": "Hvy Yian Garuga Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2234,
+      "english": "Hyper Garuga Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2235,
+      "english": "Hyper Garuga Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2237,
+      "english": "Prime Deadeye Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2238,
+      "english": "Elite Deadeye Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2239,
+      "english": "Perfect Deadeye Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2242,
+      "english": "Heavy Bulldrome Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2244,
+      "english": "Heavy Congalala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2245,
+      "english": "Hyper Congalala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2248,
+      "english": "Heavy Blangonga Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2249,
+      "english": "Hyper Blangonga Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2250,
+      "english": "Hypr Blangonga Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2252,
+      "english": "Hvy Kecha Wacha Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2253,
+      "english": "Hyper Kecha Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2254,
+      "english": "Hyper Kecha Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2255,
+      "english": "Cephalos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2256,
+      "english": "Cephalos Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2257,
+      "english": "Heavy Cephalos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2259,
+      "english": "Heavy Plesioth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2260,
+      "english": "Hyper Plesioth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2261,
+      "english": "Hyper Plesioth Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2263,
+      "english": "Heavy Lavasioth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2264,
+      "english": "Hyper Lavasioth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2265,
+      "english": "Hyper Lavasioth Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2268,
+      "english": "Heavy R.Ludroth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2269,
+      "english": "Hyper R.Ludroth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2270,
+      "english": "Hyper R.Ludroth Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2273,
+      "english": "Heavy Nibelsnarf Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2274,
+      "english": "Hyper Nibelsnarf Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2275,
+      "english": "Hypr Nibelsnarf Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2278,
+      "english": "Heavy Lagiacrus Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2279,
+      "english": "Hyper Lagiacrus Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2280,
+      "english": "Hyper Lagiacrus Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2282,
+      "english": "Heavy Agnaktor Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2283,
+      "english": "Hyper Agnaktor Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2284,
+      "english": "Hyper Agnaktor Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2287,
+      "english": "Heavy Tetsucabra Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2288,
+      "english": "Hyper Tetsu. Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2289,
+      "english": "Hyper Tetsu. Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2291,
+      "english": "Prime Drilltusk Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2292,
+      "english": "Elite Drilltusk Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2293,
+      "english": "Perfect Drilltusk Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2294,
+      "english": "Zamtrios Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2295,
+      "english": "Heavy Zamtrios Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2296,
+      "english": "Hyper Zamtrios Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2297,
+      "english": "Hyper Zamtrios Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2300,
+      "english": "Heavy Najarala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2301,
+      "english": "Hyper Najarala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2302,
+      "english": "Hyper Najarala Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2305,
+      "english": "Heavy Hermitaur Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2306,
+      "english": "Hyper Hermitaur Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2307,
+      "english": "Hypr Hermitaur Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2309,
+      "english": "Prime Stonefist Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2310,
+      "english": "Elite Stonefist Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2311,
+      "english": "Perfect Stonefist Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2312,
+      "english": "Shogun Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2313,
+      "english": "Shogun Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2314,
+      "english": "Heavy Shogun Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2315,
+      "english": "Hyper Shogun Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2316,
+      "english": "Hyper Shogun Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2317,
+      "english": "Elite Rustrazor Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2318,
+      "english": "Perfect Rustrazor Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2320,
+      "english": "Heavy Nerscylla Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2321,
+      "english": "Hyper Nerscylla Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2323,
+      "english": "Heavy S.Queen Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2324,
+      "english": "Hyper S.Queen Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2325,
+      "english": "Hyper S.Queen Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2327,
+      "english": "Heavy Barroth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2328,
+      "english": "Hyper Barroth Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2331,
+      "english": "Heavy Uragaan Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2332,
+      "english": "Hyper Uragaan Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2333,
+      "english": "Hyper Uragaan Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2335,
+      "english": "Prime C.beard Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2336,
+      "english": "Elite C.beard Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2337,
+      "english": "Perfect C.beard Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2340,
+      "english": "Heavy Brach Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2341,
+      "english": "Hyper Brach Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2342,
+      "english": "Hyper Brach Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2344,
+      "english": "Heavy Duram Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2345,
+      "english": "Hyper Duram Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2346,
+      "english": "Hyper Duram Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2347,
+      "english": "Khezu Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2349,
+      "english": "Heavy Khezu Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2350,
+      "english": "Hyper Khezu Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2351,
+      "english": "Hyper Khezu Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2354,
+      "english": "Heavy Nargacuga Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2355,
+      "english": "Hyper Nargacuga Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2356,
+      "english": "Hyper Narga Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2358,
+      "english": "Prime Silverwind Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2359,
+      "english": "Elite Silverwind Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2360,
+      "english": "Perfect Silverwind Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2362,
+      "english": "Heavy Barioth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2363,
+      "english": "Hyper Barioth Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2365,
+      "english": "Heavy Basarios Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2366,
+      "english": "Hyper Basarios Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2368,
+      "english": "Heavy Gravios Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2369,
+      "english": "Hyper Gravios Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2372,
+      "english": "Heavy Rathian Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2373,
+      "english": "Hyper Rathian Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2374,
+      "english": "Hyper Rathian Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2376,
+      "english": "Prime Dreadqueen Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2377,
+      "english": "Elite Dreadqueen Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2378,
+      "english": "Perfect Drdqueen Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2381,
+      "english": "Heavy Rathalos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2382,
+      "english": "Hyper Rathalos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2383,
+      "english": "Hyper Rathalos Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2385,
+      "english": "Prime Dreadking Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2386,
+      "english": "Elite Dreadking Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2387,
+      "english": "Perfect Dreadking Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2390,
+      "english": "Heavy Zinogre Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2391,
+      "english": "Hyper Zinogre Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2392,
+      "english": "Hyper Zinogre Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2394,
+      "english": "Prime Thunderlord Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2395,
+      "english": "Elite Thunderlord Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2396,
+      "english": "Perf. Thunderlord Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2399,
+      "english": "Heavy Astalos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2400,
+      "english": "Hyper Astalos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2401,
+      "english": "Hyper Astalos Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2402,
+      "english": "Elite Boltreaver Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2403,
+      "english": "Perfect Boltreaver Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2406,
+      "english": "Heavy Gammoth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2407,
+      "english": "Hyper Gammoth Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2408,
+      "english": "Hypr Gammoth Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2409,
+      "english": "Elite Elderfrost Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2410,
+      "english": "Perfect Elderfrost Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2413,
+      "english": "Heavy Mizutsune Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2414,
+      "english": "Hyper Mizutsune Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2415,
+      "english": "Hyper Mizutsune Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2416,
+      "english": "Elite Soulseer Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2417,
+      "english": "Perfect Soulseer Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2420,
+      "english": "Heavy Glavenus Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2421,
+      "english": "Hyper Glavenus Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2422,
+      "english": "Hyper Glavenus Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2424,
+      "english": "Prime Hellblade Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2425,
+      "english": "Elite Hellblade Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2426,
+      "english": "Perfect Hellblade Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2429,
+      "english": "Heavy Tigrex Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2430,
+      "english": "Hyper Tigrex Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2431,
+      "english": "Hyper Tigrex Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2433,
+      "english": "Prime Grimclaw Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2434,
+      "english": "Elite Grimclaw Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2435,
+      "english": "Perfect Grimclaw Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2438,
+      "english": "Heavy Seregios Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2439,
+      "english": "Hyper Seregios Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2440,
+      "english": "Hyper Seregios Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2442,
+      "english": "Heavy Diablos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2443,
+      "english": "Hyper Diablos Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2444,
+      "english": "Elite Bloodbath Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2445,
+      "english": "Perfect Bloodbath Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2448,
+      "english": "Heavy G.Magala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2449,
+      "english": "Hyper G.Magala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2450,
+      "english": "Hyper G.Magala Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2451,
+      "english": "Heavy Chaotic Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2454,
+      "english": "Heavy S.Magala Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2456,
+      "english": "Heavy Rajang Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2457,
+      "english": "Hyper Rajang Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2458,
+      "english": "Hyper Rajang Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2460,
+      "english": "Heavy Deviljho Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2461,
+      "english": "Hyper Deviljho Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2462,
+      "english": "Hyper Deviljho Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2465,
+      "english": "Heavy Kirin Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2468,
+      "english": "Heavy K.Daora Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2471,
+      "english": "Heavy Chameleos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2474,
+      "english": "Heavy Teostra Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2476,
+      "english": "Heavy Akantor Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2478,
+      "english": "Heavy Ukanlos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2480,
+      "english": "Heavy Alatreon Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2482,
+      "english": "Heavy Amatsu Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2483,
+      "english": "Heavy Lao Shan Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2484,
+      "english": "Heavy Fatalis Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2485,
+      "english": "Heavy C.Fatalis Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2486,
+      "english": "Heavy O.Fatalis Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2487,
+      "english": "Husk Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2488,
+      "english": "Husk Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2489,
+      "english": "Heavy Husk Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2491,
+      "english": "Heavy Narkakos Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2493,
+      "english": "Heavy Valstrax Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2494,
+      "english": "Heavy Ahtal-Ka Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2495,
+      "english": "Hyper Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2496,
+      "english": "Hyper Scrap+",
+      "type": "Item"
+    },
+    {
+      "id": 2497,
+      "english": "Hyper Scrap X",
+      "type": "Item"
+    },
+    {
+      "id": 2498,
+      "english": "Hyper Scrap XX",
+      "type": "Item"
+    },
+    {
+      "id": 2499,
+      "english": "Irregular Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2500,
+      "english": "Prime Irregular Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2501,
+      "english": "Elite Irregular Scrap",
+      "type": "Item"
+    },
+    {
+      "id": 2502,
+      "english": "Rathian Item",
+      "type": "Item"
+    },
+    {
+      "id": 2503,
+      "english": "Gold Rathian Item",
+      "type": "Item"
+    },
+    {
+      "id": 2504,
+      "english": "Dreadqueen Item",
+      "type": "Item"
+    },
+    {
+      "id": 2505,
+      "english": "Rathalos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2506,
+      "english": "Silver Rathalos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2507,
+      "english": "Dreadking Item",
+      "type": "Item"
+    },
+    {
+      "id": 2508,
+      "english": "Khezu Item",
+      "type": "Item"
+    },
+    {
+      "id": 2509,
+      "english": "Yian Kut-Ku Item",
+      "type": "Item"
+    },
+    {
+      "id": 2510,
+      "english": "Gypceros Item",
+      "type": "Item"
+    },
+    {
+      "id": 2511,
+      "english": "Plesioth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2512,
+      "english": "Kirin Item",
+      "type": "Item"
+    },
+    {
+      "id": 2513,
+      "english": "Velocidrome Item",
+      "type": "Item"
+    },
+    {
+      "id": 2514,
+      "english": "Gendrome Item",
+      "type": "Item"
+    },
+    {
+      "id": 2515,
+      "english": "Iodrome Item",
+      "type": "Item"
+    },
+    {
+      "id": 2516,
+      "english": "Cephadrome Item",
+      "type": "Item"
+    },
+    {
+      "id": 2517,
+      "english": "Yian Garuga Item",
+      "type": "Item"
+    },
+    {
+      "id": 2518,
+      "english": "Deadeye Item",
+      "type": "Item"
+    },
+    {
+      "id": 2519,
+      "english": "Daimyo Hermitaur Item",
+      "type": "Item"
+    },
+    {
+      "id": 2520,
+      "english": "Stonefist Item",
+      "type": "Item"
+    },
+    {
+      "id": 2521,
+      "english": "Shogun Ceanataur Item",
+      "type": "Item"
+    },
+    {
+      "id": 2522,
+      "english": "Blangonga Item",
+      "type": "Item"
+    },
+    {
+      "id": 2523,
+      "english": "Rajang Item",
+      "type": "Item"
+    },
+    {
+      "id": 2524,
+      "english": "Furious Rajang Item",
+      "type": "Item"
+    },
+    {
+      "id": 2525,
+      "english": "Kushala Daora Item",
+      "type": "Item"
+    },
+    {
+      "id": 2526,
+      "english": "Chameleos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2527,
+      "english": "Teostra Item",
+      "type": "Item"
+    },
+    {
+      "id": 2528,
+      "english": "Bulldrome Item",
+      "type": "Item"
+    },
+    {
+      "id": 2529,
+      "english": "Tigrex Item",
+      "type": "Item"
+    },
+    {
+      "id": 2530,
+      "english": "Grimclaw Item",
+      "type": "Item"
+    },
+    {
+      "id": 2531,
+      "english": "Akantor Item",
+      "type": "Item"
+    },
+    {
+      "id": 2532,
+      "english": "Lavasioth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2533,
+      "english": "Nargacuga Item",
+      "type": "Item"
+    },
+    {
+      "id": 2534,
+      "english": "Silverwind Item",
+      "type": "Item"
+    },
+    {
+      "id": 2535,
+      "english": "Ukanlos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2536,
+      "english": "Deviljho Item",
+      "type": "Item"
+    },
+    {
+      "id": 2537,
+      "english": "Savage Deviljho Item",
+      "type": "Item"
+    },
+    {
+      "id": 2538,
+      "english": "Uragaan Item",
+      "type": "Item"
+    },
+    {
+      "id": 2539,
+      "english": "Crystalbeard Item",
+      "type": "Item"
+    },
+    {
+      "id": 2540,
+      "english": "Lagiacrus Item",
+      "type": "Item"
+    },
+    {
+      "id": 2541,
+      "english": "Royal Ludroth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2542,
+      "english": "Agnaktor Item",
+      "type": "Item"
+    },
+    {
+      "id": 2543,
+      "english": "Alatreon Item",
+      "type": "Item"
+    },
+    {
+      "id": 2544,
+      "english": "Duramboros Item",
+      "type": "Item"
+    },
+    {
+      "id": 2545,
+      "english": "Nibelsnarf Item",
+      "type": "Item"
+    },
+    {
+      "id": 2546,
+      "english": "Zinogre Item",
+      "type": "Item"
+    },
+    {
+      "id": 2547,
+      "english": "Thunderlord Item",
+      "type": "Item"
+    },
+    {
+      "id": 2548,
+      "english": "Amatsu Item",
+      "type": "Item"
+    },
+    {
+      "id": 2549,
+      "english": "Arzuros Item",
+      "type": "Item"
+    },
+    {
+      "id": 2550,
+      "english": "Redhelm Item",
+      "type": "Item"
+    },
+    {
+      "id": 2551,
+      "english": "Lagombi Item",
+      "type": "Item"
+    },
+    {
+      "id": 2552,
+      "english": "Snowbaron Item",
+      "type": "Item"
+    },
+    {
+      "id": 2553,
+      "english": "Volvidon Item",
+      "type": "Item"
+    },
+    {
+      "id": 2554,
+      "english": "Brachydios Item",
+      "type": "Item"
+    },
+    {
+      "id": 2555,
+      "english": "Kecha Wacha Item",
+      "type": "Item"
+    },
+    {
+      "id": 2556,
+      "english": "Tetsucabra Item",
+      "type": "Item"
+    },
+    {
+      "id": 2557,
+      "english": "Drilltusk Item",
+      "type": "Item"
+    },
+    {
+      "id": 2558,
+      "english": "Zamtrios Item",
+      "type": "Item"
+    },
+    {
+      "id": 2559,
+      "english": "Najarala Item",
+      "type": "Item"
+    },
+    {
+      "id": 2560,
+      "english": "Seltas Queen Item",
+      "type": "Item"
+    },
+    {
+      "id": 2561,
+      "english": "Gore Magala Item",
+      "type": "Item"
+    },
+    {
+      "id": 2562,
+      "english": "Shagaru Magala Item",
+      "type": "Item"
+    },
+    {
+      "id": 2563,
+      "english": "Seltas Item",
+      "type": "Item"
+    },
+    {
+      "id": 2564,
+      "english": "Seregios Item",
+      "type": "Item"
+    },
+    {
+      "id": 2565,
+      "english": "Malfestio Item",
+      "type": "Item"
+    },
+    {
+      "id": 2566,
+      "english": "Glavenus Item",
+      "type": "Item"
+    },
+    {
+      "id": 2567,
+      "english": "Hellblade Item",
+      "type": "Item"
+    },
+    {
+      "id": 2568,
+      "english": "Astalos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2569,
+      "english": "Mizutsune Item",
+      "type": "Item"
+    },
+    {
+      "id": 2570,
+      "english": "Gammoth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2571,
+      "english": "Nakarkos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2572,
+      "english": "Great Maccao Item",
+      "type": "Item"
+    },
+    {
+      "id": 2573,
+      "english": "Aptonoth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2574,
+      "english": "Apceros Item",
+      "type": "Item"
+    },
+    {
+      "id": 2575,
+      "english": "Kelbi Item",
+      "type": "Item"
+    },
+    {
+      "id": 2576,
+      "english": "Mosswine Item",
+      "type": "Item"
+    },
+    {
+      "id": 2577,
+      "english": "Hornetaur Item",
+      "type": "Item"
+    },
+    {
+      "id": 2578,
+      "english": "Vespoid Item",
+      "type": "Item"
+    },
+    {
+      "id": 2579,
+      "english": "Velociprey Item",
+      "type": "Item"
+    },
+    {
+      "id": 2580,
+      "english": "Genprey Item",
+      "type": "Item"
+    },
+    {
+      "id": 2581,
+      "english": "Ioprey Item",
+      "type": "Item"
+    },
+    {
+      "id": 2582,
+      "english": "Cephalos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2583,
+      "english": "Bullfango Item",
+      "type": "Item"
+    },
+    {
+      "id": 2584,
+      "english": "Popo Item",
+      "type": "Item"
+    },
+    {
+      "id": 2585,
+      "english": "Giaprey Item",
+      "type": "Item"
+    },
+    {
+      "id": 2586,
+      "english": "Anteka Item",
+      "type": "Item"
+    },
+    {
+      "id": 2587,
+      "english": "Remobra Item",
+      "type": "Item"
+    },
+    {
+      "id": 2588,
+      "english": "Hermitaur Item",
+      "type": "Item"
+    },
+    {
+      "id": 2589,
+      "english": "Ceanataur Item",
+      "type": "Item"
+    },
+    {
+      "id": 2590,
+      "english": "Blango Item",
+      "type": "Item"
+    },
+    {
+      "id": 2591,
+      "english": "Rhenoplos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2592,
+      "english": "Bnahabra Item",
+      "type": "Item"
+    },
+    {
+      "id": 2593,
+      "english": "Altaroth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2594,
+      "english": "Jaggi Item",
+      "type": "Item"
+    },
+    {
+      "id": 2595,
+      "english": "Jaggia Item",
+      "type": "Item"
+    },
+    {
+      "id": 2596,
+      "english": "Ludroth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2597,
+      "english": "Uroktor Item",
+      "type": "Item"
+    },
+    {
+      "id": 2598,
+      "english": "Slagtoth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2599,
+      "english": "Gargwa Item",
+      "type": "Item"
+    },
+    {
+      "id": 2600,
+      "english": "Zamite Item",
+      "type": "Item"
+    },
+    {
+      "id": 2601,
+      "english": "Konchu Item",
+      "type": "Item"
+    },
+    {
+      "id": 2602,
+      "english": "Maccao Item",
+      "type": "Item"
+    },
+    {
+      "id": 2603,
+      "english": "Larinoth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2604,
+      "english": "Moofah Item",
+      "type": "Item"
+    },
+    {
+      "id": 2605,
+      "english": "Basarios Item",
+      "type": "Item"
+    },
+    {
+      "id": 2606,
+      "english": "Gravios Item",
+      "type": "Item"
+    },
+    {
+      "id": 2607,
+      "english": "Diablos Item",
+      "type": "Item"
+    },
+    {
+      "id": 2608,
+      "english": "Bloodbath Item",
+      "type": "Item"
+    },
+    {
+      "id": 2609,
+      "english": "Lao-Shan Lung Item",
+      "type": "Item"
+    },
+    {
+      "id": 2610,
+      "english": "Fatalis Item",
+      "type": "Item"
+    },
+    {
+      "id": 2611,
+      "english": "Crimson Fatalis Item",
+      "type": "Item"
+    },
+    {
+      "id": 2612,
+      "english": "Old Fatalis Item",
+      "type": "Item"
+    },
+    {
+      "id": 2613,
+      "english": "Rustrazor Item",
+      "type": "Item"
+    },
+    {
+      "id": 2614,
+      "english": "Congalala Item",
+      "type": "Item"
+    },
+    {
+      "id": 2615,
+      "english": "Giadrome Item",
+      "type": "Item"
+    },
+    {
+      "id": 2616,
+      "english": "Barioth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2617,
+      "english": "Barroth Item",
+      "type": "Item"
+    },
+    {
+      "id": 2618,
+      "english": "Nerscylla Item",
+      "type": "Item"
+    },
+    {
+      "id": 2619,
+      "english": "Chaotic G.Magala Item",
+      "type": "Item"
+    },
+    {
+      "id": 2620,
+      "english": "Raging Brachydios Item",
+      "type": "Item"
+    },
+    {
+      "id": 2621,
+      "english": "Nightcloak Item",
+      "type": "Item"
+    },
+    {
+      "id": 2622,
+      "english": "Boltreaver Item",
+      "type": "Item"
+    },
+    {
+      "id": 2623,
+      "english": "Soulseer Item",
+      "type": "Item"
+    },
+    {
+      "id": 2624,
+      "english": "Elderfrost Item",
+      "type": "Item"
+    },
+    {
+      "id": 2625,
+      "english": "Valstrax Item",
+      "type": "Item"
+    },
+    {
+      "id": 2626,
+      "english": "Ruin Item",
+      "type": "Item"
+    },
+    {
+      "id": 2627,
+      "english": "Empress Item",
+      "type": "Item"
+    },
+    {
+      "id": 2628,
+      "english": "Conga Item",
+      "type": "Item"
+    },
+    {
+      "id": 2629,
+      "english": "Great Thunderbug Item",
+      "type": "Item"
+    },
+    {
+      "id": 2630,
+      "english": "Lagniapple",
+      "type": "Item"
+    },
+    {
+      "id": 2631,
+      "english": "Big Lagniapple",
+      "type": "Item"
+    },
+    {
+      "id": 2632,
+      "english": "Huge Lagniapple",
+      "type": "Item"
+    },
+    {
+      "id": 2633,
+      "english": "Training Guide",
+      "type": "Item"
+    },
+    {
+      "id": 2634,
+      "english": "Training Codex",
+      "type": "Item"
+    },
+    {
+      "id": 2635,
+      "english": "Training Compendium",
+      "type": "Item"
+    },
+    {
+      "id": 2636,
+      "english": "Felyne Codex",
+      "type": "Item"
+    },
+    {
+      "id": 2637,
+      "english": "Timeworn Ballista Shot",
+      "type": "Item"
+    },
+    {
+      "id": 2900,
+      "english": "Tomato Juice",
+      "type": "Item"
+    },
+    {
+      "id": 2901,
+      "english": "Fairy Tail Mark",
+      "type": "Item"
+    },
+    {
+      "id": 2902,
+      "english": "F Pirate Coin J",
+      "type": "Item"
+    },
+    {
+      "id": 2903,
+      "english": "Cardboard",
+      "type": "Item"
+    },
+    {
+      "id": 2904,
+      "english": "Uniqlo Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2907,
+      "english": "Soulstone",
+      "type": "Item"
+    },
+    {
+      "id": 2908,
+      "english": "Crows Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2909,
+      "english": "Bicycle Club Application",
+      "type": "Item"
+    },
+    {
+      "id": 2910,
+      "english": "Arena Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2911,
+      "english": "Grandpaw Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2912,
+      "english": "CoroCoro Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2913,
+      "english": "Ushio Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2914,
+      "english": "Magi Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2915,
+      "english": "Pluto Stardust",
+      "type": "Item"
+    },
+    {
+      "id": 2916,
+      "english": "Roll of Fate",
+      "type": "Item"
+    },
+    {
+      "id": 2917,
+      "english": "Pirate Ticket J",
+      "type": "Item"
+    },
+    {
+      "id": 2918,
+      "english": "Famitsu Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2919,
+      "english": "Dengeki Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2920,
+      "english": "Uniqlo Coin S",
+      "type": "Item"
+    },
+    {
+      "id": 2926,
+      "english": "Wind Waker",
+      "type": "Item"
+    },
+    {
+      "id": 2927,
+      "english": "Arwing Boarding Pass",
+      "type": "Item"
+    },
+    {
+      "id": 2928,
+      "english": "Super Mushroom",
+      "type": "Item"
+    },
+    {
+      "id": 2929,
+      "english": "Design Pattern",
+      "type": "Item"
+    },
+    {
+      "id": 2930,
+      "english": "Triforce",
+      "type": "Item"
+    },
+    {
+      "id": 2931,
+      "english": "Samus Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2932,
+      "english": "Goddess's Grace",
+      "type": "Item"
+    },
+    {
+      "id": 2933,
+      "english": "Goddess's Embrace",
+      "type": "Item"
+    },
+    {
+      "id": 2934,
+      "english": "SF Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2935,
+      "english": "Red Orb",
+      "type": "Item"
+    },
+    {
+      "id": 2936,
+      "english": "Ceratanium",
+      "type": "Item"
+    },
+    {
+      "id": 2937,
+      "english": "Hero's Seal",
+      "type": "Item"
+    },
+    {
+      "id": 2938,
+      "english": "Baby Journal",
+      "type": "Item"
+    },
+    {
+      "id": 2939,
+      "english": "Sunsnug Journal",
+      "type": "Item"
+    },
+    {
+      "id": 2940,
+      "english": "Fan Club Newsletter",
+      "type": "Item"
+    },
+    {
+      "id": 2941,
+      "english": "Fan Club Application",
+      "type": "Item"
+    },
+    {
+      "id": 2942,
+      "english": "Fan Club Invite",
+      "type": "Item"
+    },
+    {
+      "id": 2943,
+      "english": "Puppet Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2944,
+      "english": "Great Stone",
+      "type": "Item"
+    },
+    {
+      "id": 2945,
+      "english": "Courier's Letter",
+      "type": "Item"
+    },
+    {
+      "id": 2946,
+      "english": "Kaioh Certificate",
+      "type": "Item"
+    },
+    {
+      "id": 2947,
+      "english": "WORST Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2948,
+      "english": "Evidence",
+      "type": "Item"
+    },
+    {
+      "id": 2949,
+      "english": "Salaryman Coin",
+      "type": "Item"
+    },
+    {
+      "id": 2950,
+      "english": "Taisha-ryu Codex",
+      "type": "Item"
+    },
+    {
+      "id": 2951,
+      "english": "Famitsu Coupon",
+      "type": "Item"
+    },
+    {
+      "id": 2952,
+      "english": "Dengeki Ticket XX",
+      "type": "Item"
+    },
+    {
+      "id": 2953,
+      "english": "Flying Xin Mark",
+      "type": "Item"
+    },
+    {
+      "id": 2954,
+      "english": "Buccaneer Ticket J",
+      "type": "Item"
+    },
+    {
+      "id": 2955,
+      "english": "Magic Realm Key",
+      "type": "Item"
+    },
+    {
+      "id": 2957,
+      "english": "Zaruba Fragment",
+      "type": "Item"
+    },
+    {
+      "id": 2959,
+      "english": "Turnabout Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2960,
+      "english": "Navirou Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2961,
+      "english": "F Spirit Stone",
+      "type": "Item"
+    },
+    {
+      "id": 2962,
+      "english": "Club Promotion",
+      "type": "Item"
+    },
+    {
+      "id": 2963,
+      "english": "JDL Badge",
+      "type": "Item"
+    },
+    {
+      "id": 2965,
+      "english": "Silver Crystal",
+      "type": "Item"
+    },
+    {
+      "id": 2966,
+      "english": "Zelda Ticket",
+      "type": "Item"
+    },
+    {
+      "id": 2967,
+      "english": "Zelda Ticket G",
+      "type": "Item"
+    },
+    {
+      "id": 2972,
+      "english": "Sealing Shield",
+      "type": "Item"
+    },
+    {
+      "id": 2973,
+      "english": "Option",
+      "type": "Item"
+    },
+    {
+      "id": 2974,
+      "english": "Celestial Scroll",
+      "type": "Item"
+    },
+    {
+      "id": 2975,
+      "english": "Arthur's Armor",
+      "type": "Item"
+    },
+    {
+      "id": 2976,
+      "english": "Zelda Ticket P",
+      "type": "Item"
+    }
+  ],
+  "untranslated_quests": [
+    {
+      "id": 102,
+      "english": "Due for Dragon Amber"
+    },
+    {
+      "id": 103,
+      "english": "Medicinal Moths"
+    },
+    {
+      "id": 104,
+      "english": "Horns o' Plenty"
+    },
+    {
+      "id": 201,
+      "english": "Harvest Tour: Jurassic Frontier"
+    },
+    {
+      "id": 202,
+      "english": "Harvest Tour: Dunes"
+    },
+    {
+      "id": 203,
+      "english": "Harvest Tour: Verdant Hills"
+    },
+    {
+      "id": 204,
+      "english": "Harvest Tour: Arctic Ridge"
+    },
+    {
+      "id": 205,
+      "english": "Harvest Tour: Misty Peaks"
+    },
+    {
+      "id": 208,
+      "english": "On the Rebound"
+    },
+    {
+      "id": 209,
+      "english": "A Berry Good Idea"
+    },
+    {
+      "id": 210,
+      "english": "A Fern is Forever"
+    },
+    {
+      "id": 211,
+      "english": "Jurassic Frontier Accounting"
+    },
+    {
+      "id": 214,
+      "english": "Slay the Genprey!"
+    },
+    {
+      "id": 216,
+      "english": "Birthday Berries"
+    },
+    {
+      "id": 217,
+      "english": "Liver of Legend!"
+    },
+    {
+      "id": 218,
+      "english": "Dunes Accounting"
+    },
+    {
+      "id": 219,
+      "english": "Hunt Down the Velocidrome!"
+    },
+    {
+      "id": 220,
+      "english": "Slay the Velociprey!"
+    },
+    {
+      "id": 221,
+      "english": "Bullfango Tango"
+    },
+    {
+      "id": 222,
+      "english": "Prime Premium Sashimi"
+    },
+    {
+      "id": 223,
+      "english": "Verdant Hills Accounting"
+    },
+    {
+      "id": 224,
+      "english": "The Mountain Roughrider"
+    },
+    {
+      "id": 225,
+      "english": "Slay the Giaprey!"
+    },
+    {
+      "id": 226,
+      "english": "A Pack of Blangos"
+    },
+    {
+      "id": 227,
+      "english": "Medicinal Mountain Herbs"
+    },
+    {
+      "id": 228,
+      "english": "Arctic Ridge Accounting"
+    },
+    {
+      "id": 229,
+      "english": "Arzuros the Azure Beast"
+    },
+    {
+      "id": 230,
+      "english": "Bye Bye Jaggia"
+    },
+    {
+      "id": 231,
+      "english": "Howling Harassment"
+    },
+    {
+      "id": 232,
+      "english": "Fungal Fad"
+    },
+    {
+      "id": 233,
+      "english": "Sunsnug Sprout Courier"
+    },
+    {
+      "id": 234,
+      "english": "Misty Peaks Accounting"
+    },
+    {
+      "id": 301,
+      "english": "Harvest Tour: Deserted Island"
+    },
+    {
+      "id": 302,
+      "english": "Harvest Tour: Marshlands"
+    },
+    {
+      "id": 305,
+      "english": "Chasing Tail"
+    },
+    {
+      "id": 307,
+      "english": "Bit by the Fashion Bug"
+    },
+    {
+      "id": 310,
+      "english": "Fishy Favor"
+    },
+    {
+      "id": 313,
+      "english": "Konchu Collector"
+    },
+    {
+      "id": 314,
+      "english": "Cancer of the Dunes"
+    },
+    {
+      "id": 315,
+      "english": "Deliver the Liver"
+    },
+    {
+      "id": 316,
+      "english": "Farming Frustrations"
+    },
+    {
+      "id": 319,
+      "english": "Into the Wyvern's Den"
+    },
+    {
+      "id": 322,
+      "english": "Anteka Anticipation"
+    },
+    {
+      "id": 324,
+      "english": "No Go on the Popo"
+    },
+    {
+      "id": 326,
+      "english": "Bully the Bullfango"
+    },
+    {
+      "id": 327,
+      "english": "For Whom the Egg Yolks"
+    },
+    {
+      "id": 329,
+      "english": "A Forest Fracas"
+    },
+    {
+      "id": 330,
+      "english": "A Forest Fracas"
+    },
+    {
+      "id": 331,
+      "english": "Royal Honey Hunt"
+    },
+    {
+      "id": 334,
+      "english": "Pack Woes"
+    },
+    {
+      "id": 336,
+      "english": "Moofah Must-haves"
+    },
+    {
+      "id": 337,
+      "english": "Deserted Island Accounting"
+    },
+    {
+      "id": 340,
+      "english": "Pest Control"
+    },
+    {
+      "id": 341,
+      "english": "Travelers in Trouble"
+    },
+    {
+      "id": 343,
+      "english": "Marshlands Accounting"
+    },
+    {
+      "id": 401,
+      "english": "Harvest Tour: Volcano"
+    },
+    {
+      "id": 414,
+      "english": "Lagombi Lair"
+    },
+    {
+      "id": 416,
+      "english": "Royal Pains"
+    },
+    {
+      "id": 424,
+      "english": "Crustacean Infestation"
+    },
+    {
+      "id": 427,
+      "english": "Rocking the Uroktor"
+    },
+    {
+      "id": 429,
+      "english": "Volcano Accounting"
+    },
+    {
+      "id": 505,
+      "english": "Fungus Fetch"
+    },
+    {
+      "id": 515,
+      "english": "Behind Closed Ores"
+    },
+    {
+      "id": 520,
+      "english": "Envoy to Disaster"
+    },
+    {
+      "id": 521,
+      "english": "A Late Jurassic Excursion"
+    },
+    {
+      "id": 522,
+      "english": "A Sandy Battle Royale"
+    },
+    {
+      "id": 604,
+      "english": "From Beyond the Sands"
+    },
+    {
+      "id": 607,
+      "english": "The Perilous Pair"
+    },
+    {
+      "id": 623,
+      "english": "Advanced: Jurassic Treasure"
+    },
+    {
+      "id": 625,
+      "english": "Advanced: Invoking Rath"
+    },
+    {
+      "id": 632,
+      "english": "Advanced: Nothing is Sacred"
+    },
+    {
+      "id": 706,
+      "english": "Kut-Ku Misunderstood"
+    },
+    {
+      "id": 707,
+      "english": "Enough Monkeying Around"
+    },
+    {
+      "id": 714,
+      "english": "Ruined Pinnacle, RUINED"
+    },
+    {
+      "id": 718,
+      "english": "March of the Genprey"
+    },
+    {
+      "id": 719,
+      "english": "On Burrowed Time"
+    },
+    {
+      "id": 723,
+      "english": "Harvest Tour: Jurassic Frontier"
+    },
+    {
+      "id": 724,
+      "english": "Harvest Tour: Dunes"
+    },
+    {
+      "id": 728,
+      "english": "Defiant Maccao"
+    },
+    {
+      "id": 734,
+      "english": "Bag a Barroth!"
+    },
+    {
+      "id": 801,
+      "english": "Harvest Tour: Jungle"
+    },
+    {
+      "id": 816,
+      "english": "A Trace of Light"
+    },
+    {
+      "id": 828,
+      "english": "Wyvern Egg Delivery: Lunch"
+    },
+    {
+      "id": 829,
+      "english": "My New Life as a Maccao"
+    },
+    {
+      "id": 834,
+      "english": "Just Deserts"
+    },
+    {
+      "id": 914,
+      "english": "Fearful Symmetry"
+    },
+    {
+      "id": 918,
+      "english": "Taming of the Zinogre"
+    },
+    {
+      "id": 939,
+      "english": "Jurassic Frontier Fracas"
+    },
+    {
+      "id": 1038,
+      "english": "Bag a Brachydios"
+    },
+    {
+      "id": 10101,
+      "english": "Harvest Tour: Jurassic Frontier"
+    },
+    {
+      "id": 10106,
+      "english": "Boot to the Head"
+    },
+    {
+      "id": 10109,
+      "english": "Red-Faced Ruffians"
+    },
+    {
+      "id": 10112,
+      "english": "In Pursuit of the Sand Wyvern"
+    },
+    {
+      "id": 10114,
+      "english": "Hermitaur Party"
+    },
+    {
+      "id": 10115,
+      "english": "Ingredient Hunter"
+    },
+    {
+      "id": 10119,
+      "english": "Farming Frustrations"
+    },
+    {
+      "id": 10121,
+      "english": "Preying on Giaprey"
+    },
+    {
+      "id": 10122,
+      "english": "Special Home Brew"
+    },
+    {
+      "id": 10126,
+      "english": "A Mother's Woes"
+    },
+    {
+      "id": 10127,
+      "english": "Jaggi Junket"
+    },
+    {
+      "id": 10201,
+      "english": "Harvest Tour: Deserted Island"
+    },
+    {
+      "id": 10204,
+      "english": "Walk 'n Roll"
+    },
+    {
+      "id": 10205,
+      "english": "Rocking Rhenoplos"
+    },
+    {
+      "id": 10207,
+      "english": "Tongue-Tied"
+    },
+    {
+      "id": 10209,
+      "english": "Konchu Collector"
+    },
+    {
+      "id": 10210,
+      "english": "Liver of Legend!"
+    },
+    {
+      "id": 10214,
+      "english": "Fresh is Best"
+    },
+    {
+      "id": 10217,
+      "english": "Blango Slaying Tactics"
+    },
+    {
+      "id": 10221,
+      "english": "Bye Bye Jaggia"
+    },
+    {
+      "id": 10226,
+      "english": "Bnahabra Bloodbath"
+    },
+    {
+      "id": 10230,
+      "english": "Ioprey Hunting"
+    },
+    {
+      "id": 10231,
+      "english": "Attack of the Giant Bugs!"
+    },
+    {
+      "id": 10321,
+      "english": "Crustacean Infestation"
+    },
+    {
+      "id": 10322,
+      "english": "Scavengers United"
+    },
+    {
+      "id": 10324,
+      "english": "An Early Jurassic Excursion"
+    },
+    {
+      "id": 10404,
+      "english": "Harvest Tour: Dunes"
+    },
+    {
+      "id": 10409,
+      "english": "Ruining the Ruins"
+    },
+    {
+      "id": 10410,
+      "english": "Bag the Bounding Bandit"
+    },
+    {
+      "id": 10411,
+      "english": "Jaggi of the Steppe"
+    },
+    {
+      "id": 10417,
+      "english": "Poison Paralysis Pinch"
+    },
+    {
+      "id": 10421,
+      "english": "So Notable: Great Maccao"
+    },
+    {
+      "id": 10425,
+      "english": "Bullfango Brigade"
+    },
+    {
+      "id": 10431,
+      "english": "Netting Neopterons"
+    },
+    {
+      "id": 10432,
+      "english": "Clash of Rivals"
+    },
+    {
+      "id": 10433,
+      "english": "A Powerful Team"
+    },
+    {
+      "id": 10506,
+      "english": "So Notable: Kecha Wacha"
+    },
+    {
+      "id": 10507,
+      "english": "Ancestral Steppe Accounting"
+    },
+    {
+      "id": 10508,
+      "english": "Dragon Lady"
+    },
+    {
+      "id": 10513,
+      "english": "Primal Forest Accounting"
+    },
+    {
+      "id": 10517,
+      "english": "Zamite Fight"
+    },
+    {
+      "id": 10518,
+      "english": "Stone-cold Stones"
+    },
+    {
+      "id": 10519,
+      "english": "Liver and Let Die"
+    },
+    {
+      "id": 10527,
+      "english": "Line in the Sand"
+    },
+    {
+      "id": 10534,
+      "english": "Attack of the Giant Bugs!"
+    },
+    {
+      "id": 10538,
+      "english": "The Most Dangerous Game"
+    },
+    {
+      "id": 10541,
+      "english": "The Hunter Games"
+    },
+    {
+      "id": 10542,
+      "english": "Hunt, Sweat, and Tears"
+    },
+    {
+      "id": 10544,
+      "english": "Brute of the Sands"
+    },
+    {
+      "id": 10546,
+      "english": "Web Sighting"
+    },
+    {
+      "id": 10603,
+      "english": "Rathalos Run"
+    },
+    {
+      "id": 10611,
+      "english": "Frozen Seaway Accounting"
+    },
+    {
+      "id": 10614,
+      "english": "Volcanic Hollow Accounting"
+    },
+    {
+      "id": 10615,
+      "english": "Bug Bite"
+    },
+    {
+      "id": 10623,
+      "english": "Bl-Bl-Blangongas!"
+    },
+    {
+      "id": 10627,
+      "english": "Open Season for Jaggia"
+    },
+    {
+      "id": 10632,
+      "english": "River of Fire"
+    },
+    {
+      "id": 10640,
+      "english": "At the Slayground"
+    },
+    {
+      "id": 10644,
+      "english": "Miasma Attack"
+    },
+    {
+      "id": 10648,
+      "english": "The Frog of War"
+    },
+    {
+      "id": 10649,
+      "english": "Triple Toady Terror"
+    },
+    {
+      "id": 10651,
+      "english": "Woe Malfestio"
+    },
+    {
+      "id": 10655,
+      "english": "Hyper for Holes"
+    },
+    {
+      "id": 10659,
+      "english": "Hyper Investigation"
+    },
+    {
+      "id": 10660,
+      "english": "The Khezu and the Shadow"
+    },
+    {
+      "id": 10663,
+      "english": "Eruption Embodied"
+    },
+    {
+      "id": 10664,
+      "english": "The Magma's Rage"
+    },
+    {
+      "id": 10709,
+      "english": "The Hapless Bodyguard"
+    },
+    {
+      "id": 10714,
+      "english": "Wyvern's Way"
+    },
+    {
+      "id": 10718,
+      "english": "The Hunter Games"
+    },
+    {
+      "id": 10748,
+      "english": "The Foes of the Deep"
+    },
+    {
+      "id": 10751,
+      "english": "Ring of the Golden Lune"
+    },
+    {
+      "id": 10755,
+      "english": "Triumphant Rage"
+    },
+    {
+      "id": 10762,
+      "english": "Grim Tidings"
+    },
+    {
+      "id": 10763,
+      "english": "Absolute Zero"
+    },
+    {
+      "id": 10764,
+      "english": "The Looming Calamity"
+    },
+    {
+      "id": 10765,
+      "english": "The Brilliant Darkness"
+    },
+    {
+      "id": 10771,
+      "english": "Rajang's Black Spirit"
+    },
+    {
+      "id": 10773,
+      "english": "Fool's Gold"
+    },
+    {
+      "id": 11112,
+      "english": "A Berry Dubious Idea"
+    },
+    {
+      "id": 11114,
+      "english": "Ruined Pinnacle, RUINED"
+    },
+    {
+      "id": 11119,
+      "english": "Harvest Tour: Jurassic Frontier"
+    },
+    {
+      "id": 11120,
+      "english": "Harvest Tour: Dunes"
+    },
+    {
+      "id": 11128,
+      "english": "Antony and Tetsucabra"
+    },
+    {
+      "id": 11129,
+      "english": "The Bird Who Wood Be King"
+    },
+    {
+      "id": 11210,
+      "english": "Sky Tribe: Savior of the Skyway"
+    },
+    {
+      "id": 11211,
+      "english": "Share the Load (and the Reward)"
+    },
+    {
+      "id": 11216,
+      "english": "Face-off in the Jungle"
+    },
+    {
+      "id": 11217,
+      "english": "Poisoned Primal Forest"
+    },
+    {
+      "id": 11218,
+      "english": "Hit the Lights"
+    },
+    {
+      "id": 11220,
+      "english": "Harvest Tour: Frozen Seaway"
+    },
+    {
+      "id": 11227,
+      "english": "Zamite Fright"
+    },
+    {
+      "id": 11228,
+      "english": "Fishing's Lure"
+    },
+    {
+      "id": 11230,
+      "english": "Brute of the Sands"
+    },
+    {
+      "id": 11232,
+      "english": "We've Reached Peak Blangonga"
+    },
+    {
+      "id": 11241,
+      "english": "Minion's Devotion"
+    },
+    {
+      "id": 11245,
+      "english": "Frog's Face, Demon's Heart"
+    },
+    {
+      "id": 11246,
+      "english": "The Hype is Royal"
+    },
+    {
+      "id": 11306,
+      "english": "Predator in the Hills"
+    },
+    {
+      "id": 11332,
+      "english": "Temnoceranophobia"
+    },
+    {
+      "id": 11339,
+      "english": "...Or Just Wait for It to Poop"
+    },
+    {
+      "id": 11355,
+      "english": "Howl at the Moon"
+    },
+    {
+      "id": 11357,
+      "english": "\"Kiken\" Means \"Danger\"!"
+    },
+    {
+      "id": 11360,
+      "english": "Frontier Fisticuffs"
+    },
+    {
+      "id": 11361,
+      "english": "Down With This Sort of Thing"
+    },
+    {
+      "id": 11363,
+      "english": "Searing Sands"
+    },
+    {
+      "id": 11367,
+      "english": "Let the Games Begin"
+    },
+    {
+      "id": 11403,
+      "english": "Battle of 1001 Blades"
+    },
+    {
+      "id": 11434,
+      "english": "Neopteronophobia"
+    },
+    {
+      "id": 11439,
+      "english": "It Takes Mizutsune to Tango"
+    },
+    {
+      "id": 11449,
+      "english": "Even Brachydios Need A Holiday"
+    },
+    {
+      "id": 11462,
+      "english": "Price Freeze"
+    },
+    {
+      "id": 11463,
+      "english": "Seregios Scuffle"
+    },
+    {
+      "id": 11466,
+      "english": "Brachydios Bypass"
+    },
+    {
+      "id": 11471,
+      "english": "Fiery Four-way Fracas"
+    },
+    {
+      "id": 11472,
+      "english": "Pitched Pinnacle Battle"
+    },
+    {
+      "id": 11473,
+      "english": "A Tragedy in Silver and Gold"
+    },
+    {
+      "id": 11478,
+      "english": "Zinogre-enthusiasm"
+    },
+    {
+      "id": 11481,
+      "english": "The Sun and the Moon"
+    },
+    {
+      "id": 11483,
+      "english": "Garuga's Comeuppance"
+    },
+    {
+      "id": 11490,
+      "english": "Jungle Funk"
+    },
+    {
+      "id": 20001,
+      "english": "Grudge Match: Malfestio"
+    },
+    {
+      "id": 20002,
+      "english": "Grudge Match: Khezu"
+    },
+    {
+      "id": 20003,
+      "english": "Grudge Match: Najarala"
+    },
+    {
+      "id": 20004,
+      "english": "Grudge Match: Rathalos"
+    },
+    {
+      "id": 20005,
+      "english": "Grudge Match: Kecha Wacha"
+    },
+    {
+      "id": 20006,
+      "english": "Grudge Match: Plesioth"
+    },
+    {
+      "id": 20007,
+      "english": "Grudge Match: Brachydios"
+    },
+    {
+      "id": 20008,
+      "english": "Grudge Match: Barioth"
+    },
+    {
+      "id": 20009,
+      "english": "Grudge Match: Yian Garuga"
+    },
+    {
+      "id": 20010,
+      "english": "Grudge Match: Uragaan"
+    },
+    {
+      "id": 20011,
+      "english": "Grudge Match: Seregios"
+    },
+    {
+      "id": 100201,
+      "english": "Prowler's First Errand"
+    },
+    {
+      "id": 100202,
+      "english": "Jurassic Fungologist"
+    },
+    {
+      "id": 100203,
+      "english": "Lucky Frontier Cat"
+    },
+    {
+      "id": 100301,
+      "english": "Verdant Hills Bully"
+    },
+    {
+      "id": 100302,
+      "english": "Lucky Hills Cat"
+    },
+    {
+      "id": 100303,
+      "english": "The Mining Drag"
+    },
+    {
+      "id": 100304,
+      "english": "Felyne Fishing Weekly"
+    },
+    {
+      "id": 100305,
+      "english": "Grooming the Moofahs"
+    },
+    {
+      "id": 100306,
+      "english": "Bug Reports"
+    },
+    {
+      "id": 100401,
+      "english": "Great Maccao Headbreaker"
+    },
+    {
+      "id": 100402,
+      "english": "Dash It All"
+    },
+    {
+      "id": 100403,
+      "english": "An Offer You Can't Refuse"
+    },
+    {
+      "id": 100405,
+      "english": "Marshlands Fishing?"
+    },
+    {
+      "id": 100406,
+      "english": "Arctic Point Expedition"
+    },
+    {
+      "id": 100501,
+      "english": "Blood Red Marshlands"
+    },
+    {
+      "id": 100502,
+      "english": "An Offer You Can't Relieve"
+    },
+    {
+      "id": 100503,
+      "english": "Uroktor Hide 'n Seek"
+    },
+    {
+      "id": 100504,
+      "english": "Into the Volcano"
+    },
+    {
+      "id": 100505,
+      "english": "Kut-Ku Earbreaker"
+    },
+    {
+      "id": 100601,
+      "english": "The Right Cattitude"
+    },
+    {
+      "id": 100602,
+      "english": "D. Hermitaur Shellbreaker"
+    },
+    {
+      "id": 100603,
+      "english": "Surrounded by Blue and Green"
+    },
+    {
+      "id": 100604,
+      "english": "Poison and Fangs"
+    },
+    {
+      "id": 100701,
+      "english": "Prowler's Second Errand"
+    },
+    {
+      "id": 100702,
+      "english": "Conga Line"
+    },
+    {
+      "id": 100703,
+      "english": "Dashing Velocidrome"
+    },
+    {
+      "id": 100801,
+      "english": "Eggcellent Surprise"
+    },
+    {
+      "id": 100802,
+      "english": "Cold-Blooded Giadrome"
+    },
+    {
+      "id": 100803,
+      "english": "Picturesque Pinnacle"
+    },
+    {
+      "id": 100804,
+      "english": "Congalala Crestbreaker"
+    },
+    {
+      "id": 100901,
+      "english": "Innocent Curiosity"
+    },
+    {
+      "id": 100902,
+      "english": "A Poison Paradise"
+    },
+    {
+      "id": 100903,
+      "english": "Lucky Dunes Cat"
+    },
+    {
+      "id": 100904,
+      "english": "Basarios Chestbreaker"
+    },
+    {
+      "id": 101001,
+      "english": "Lucky Hills Cat"
+    },
+    {
+      "id": 101002,
+      "english": "Ludroth Lunacy"
+    },
+    {
+      "id": 101003,
+      "english": "Duramboros Humpbreaker"
+    },
+    {
+      "id": 101004,
+      "english": "Snow Festival"
+    },
+    {
+      "id": 101005,
+      "english": "Drome Rush!"
+    },
+    {
+      "id": 110101,
+      "english": "Dance: The Final Frontier"
+    },
+    {
+      "id": 110102,
+      "english": "Taste the Mountains"
+    },
+    {
+      "id": 110103,
+      "english": "Lucky Mountain Cat"
+    },
+    {
+      "id": 110201,
+      "english": "Running with the Night"
+    },
+    {
+      "id": 110202,
+      "english": "A Cricket to Love"
+    },
+    {
+      "id": 110203,
+      "english": "A Resplendent Dance"
+    },
+    {
+      "id": 110301,
+      "english": "Hot Scales & Sharp Pincers"
+    },
+    {
+      "id": 110302,
+      "english": "There's Always Room for Fish"
+    },
+    {
+      "id": 110303,
+      "english": "Out of the Frying Pan"
+    },
+    {
+      "id": 110401,
+      "english": "The Grandmeowster's Trials"
+    },
+    {
+      "id": 110402,
+      "english": "We Cat All Be Heroes"
+    },
+    {
+      "id": 110403,
+      "english": "Fois Gras Faux Pas"
+    },
+    {
+      "id": 110404,
+      "english": "Splash in the Moonlight"
+    },
+    {
+      "id": 110501,
+      "english": "Calm, Cool, and Collected"
+    },
+    {
+      "id": 110502,
+      "english": "Kecha Wacha Earbreaker"
+    },
+    {
+      "id": 110503,
+      "english": "Fish On!"
+    },
+    {
+      "id": 110504,
+      "english": "Lucky Volcano Cat"
+    },
+    {
+      "id": 110505,
+      "english": "Under the Blazing Sun"
+    },
+    {
+      "id": 110601,
+      "english": "Everywhere You Look"
+    },
+    {
+      "id": 110602,
+      "english": "Malfestio Headbreaker"
+    },
+    {
+      "id": 110603,
+      "english": "The Snow Must Go On"
+    },
+    {
+      "id": 110604,
+      "english": "Big Bro's Benevolence"
+    },
+    {
+      "id": 110701,
+      "english": "The Ball's in Your Court"
+    },
+    {
+      "id": 110702,
+      "english": "Uragaan Shellbreaker"
+    },
+    {
+      "id": 110703,
+      "english": "Poison, Poison, Go Away"
+    },
+    {
+      "id": 110704,
+      "english": "Meownster Hunter"
+    },
+    {
+      "id": 111101,
+      "english": "Bnahabra in the Stomach"
+    },
+    {
+      "id": 111102,
+      "english": "Lucky Steppe Cat"
+    },
+    {
+      "id": 111103,
+      "english": "Desert Furrontier"
+    },
+    {
+      "id": 111201,
+      "english": "Primal Furrontier"
+    },
+    {
+      "id": 111202,
+      "english": "Thank-You Gift"
+    },
+    {
+      "id": 111203,
+      "english": "Royal Ludroth Manebreaker"
+    },
+    {
+      "id": 111301,
+      "english": "Laughter is Not the Best Antidote"
+    },
+    {
+      "id": 111302,
+      "english": "Volcano Furrontier"
+    },
+    {
+      "id": 111303,
+      "english": "Lucky Jungle Cat"
+    },
+    {
+      "id": 111304,
+      "english": "Nerscylla Hidebreaker"
+    },
+    {
+      "id": 111401,
+      "english": "Lagiacrus Headbreaker"
+    },
+    {
+      "id": 111402,
+      "english": "Ninjadromes"
+    },
+    {
+      "id": 111403,
+      "english": "Seltas Spat"
+    },
+    {
+      "id": 111404,
+      "english": "Gravios Backbreaker"
+    },
+    {
+      "id": 111405,
+      "english": "Meownster Hunter Ultimate"
+    },
+    {
+      "id": 120001,
+      "english": "Grudge Match: Great Maccao"
+    },
+    {
+      "id": 120002,
+      "english": "Grudge Match: Gypceros"
+    },
+    {
+      "id": 120003,
+      "english": "Grudge Match: Bird Wyverns"
+    },
+    {
+      "id": 120004,
+      "english": "Grudge Match: Barroth"
+    },
+    {
+      "id": 120005,
+      "english": "Grudge Match: Tetsucabra"
+    },
+    {
+      "id": 120006,
+      "english": "Grudge Match: Congalala"
+    },
+    {
+      "id": 1010004,
+      "english": "A Season for Lava"
+    },
+    {
+      "id": 1010101,
+      "english": "Crows: The Black Crows"
+    },
+    {
+      "id": 1010102,
+      "english": "Yowamushi Pedal: Princess"
+    },
+    {
+      "id": 1010103,
+      "english": "Baki: Biggest vs. Strongest"
+    },
+    {
+      "id": 1010104,
+      "english": "CoroCoro: Rolling Bowlers"
+    },
+    {
+      "id": 1010105,
+      "english": "Ushio & Tora: White Mizutsune"
+    },
+    {
+      "id": 1010106,
+      "english": "Magi: Rescue from the Fall"
+    },
+    {
+      "id": 1010107,
+      "english": "The Exploding Flame King"
+    },
+    {
+      "id": 1010108,
+      "english": "Yu-Gi-Oh: A Beautiful Wyvern"
+    },
+    {
+      "id": 1010109,
+      "english": "Jump: Boiling Magma"
+    },
+    {
+      "id": 1010110,
+      "english": "Famitsu: Mizutsune Feature"
+    },
+    {
+      "id": 1010111,
+      "english": "Dengeki: Turbulent Seas"
+    },
+    {
+      "id": 1010112,
+      "english": "Uniqlo Shock Fest"
+    },
+    {
+      "id": 1010118,
+      "english": "Star Fox: Battle at Arctic Ridge"
+    },
+    {
+      "id": 1010119,
+      "english": "The Three Virtues"
+    },
+    {
+      "id": 1010120,
+      "english": "Metroid: Special Mission"
+    },
+    {
+      "id": 1010121,
+      "english": "The Steel Vanguard"
+    },
+    {
+      "id": 1010122,
+      "english": "The Voracious King"
+    },
+    {
+      "id": 1010123,
+      "english": "DMC: The Seltas Queen's Cry"
+    },
+    {
+      "id": 1010124,
+      "english": "Mega Man: Yellow Devil"
+    },
+    {
+      "id": 1010125,
+      "english": "Capcom: Brilliant Orchestra"
+    },
+    {
+      "id": 1010127,
+      "english": "Felyne Village: The Tourney"
+    },
+    {
+      "id": 1010128,
+      "english": "Fan Club: Great All Stars"
+    },
+    {
+      "id": 1010129,
+      "english": "Fan Club: Remobra Removal"
+    },
+    {
+      "id": 1010130,
+      "english": "Capcom: White & Black"
+    },
+    {
+      "id": 1010131,
+      "english": "Capcom: The Ruler's Rage"
+    },
+    {
+      "id": 1010133,
+      "english": "Moonlit Tryst"
+    },
+    {
+      "id": 1010134,
+      "english": "Raging Twins"
+    },
+    {
+      "id": 1010135,
+      "english": "All's Hair in Glove & War"
+    },
+    {
+      "id": 1010137,
+      "english": "A Golden Moon Rises"
+    },
+    {
+      "id": 1010138,
+      "english": "Silver and Gold"
+    },
+    {
+      "id": 1010140,
+      "english": "Secret Nibelsnarf Hunt"
+    },
+    {
+      "id": 1010141,
+      "english": "The Obvious Choice..."
+    },
+    {
+      "id": 1010142,
+      "english": "It Would Be a Shame If..."
+    },
+    {
+      "id": 1010143,
+      "english": "Not Stepping One Foot..."
+    },
+    {
+      "id": 1010144,
+      "english": "Picturesque Encounter"
+    },
+    {
+      "id": 1010145,
+      "english": "Absolute Power"
+    },
+    {
+      "id": 1010146,
+      "english": "A Land Draped in Fantasy"
+    },
+    {
+      "id": 1010147,
+      "english": "The Formless One"
+    },
+    {
+      "id": 1010148,
+      "english": "The White God Returns"
+    },
+    {
+      "id": 1010149,
+      "english": "Evil Descendeth Upon Us"
+    },
+    {
+      "id": 1010150,
+      "english": "Where Gods Fear to Tread"
+    },
+    {
+      "id": 1010151,
+      "english": "Harbinger of Death"
+    },
+    {
+      "id": 1010152,
+      "english": "No Party Poopers!"
+    },
+    {
+      "id": 1010153,
+      "english": "The Five Kings of Destruction"
+    },
+    {
+      "id": 1010154,
+      "english": "How It's Done"
+    },
+    {
+      "id": 1010155,
+      "english": "Unbridled Rage"
+    },
+    {
+      "id": 1010156,
+      "english": "Insanity and Destruction"
+    },
+    {
+      "id": 1010157,
+      "english": "Volcano Item Delivery"
+    },
+    {
+      "id": 1010158,
+      "english": "Anything For a Buck"
+    },
+    {
+      "id": 1010159,
+      "english": "A Mammoth Mistake"
+    },
+    {
+      "id": 1010161,
+      "english": "The Untamed Mountains"
+    },
+    {
+      "id": 1010163,
+      "english": "The Best of the Best"
+    },
+    {
+      "id": 1010164,
+      "english": "The Greatest Hunter"
+    },
+    {
+      "id": 1010165,
+      "english": "Retreat Run-in"
+    },
+    {
+      "id": 1010166,
+      "english": "Overcome with Awe"
+    },
+    {
+      "id": 1010167,
+      "english": "The Hammer and the Pike"
+    },
+    {
+      "id": 1010168,
+      "english": "Jump: The Desert Crown"
+    },
+    {
+      "id": 1010170,
+      "english": "Strider: Frozen Mission"
+    },
+    {
+      "id": 1010171,
+      "english": "The Legend of Zelda: Power"
+    },
+    {
+      "id": 1010172,
+      "english": "Fire Emblem: Warding Despair"
+    },
+    {
+      "id": 1010174,
+      "english": "Okami: Most Wanted"
+    },
+    {
+      "id": 1010175,
+      "english": "Ghosts 'n Goblins: Seeing Red"
+    },
+    {
+      "id": 1011001,
+      "english": "Case Closed: Desert Arrest!"
+    },
+    {
+      "id": 1011002,
+      "english": "Kingdom: Test of the Best!"
+    },
+    {
+      "id": 1011004,
+      "english": "Shonen: Winged Nocturne"
+    },
+    {
+      "id": 1011005,
+      "english": "Drifters: Isle of Lost Souls"
+    },
+    {
+      "id": 1011006,
+      "english": "Famitsu: Kecha the Scoop!"
+    },
+    {
+      "id": 1011007,
+      "english": "Dengeki: Top of Old Sparky"
+    },
+    {
+      "id": 1011008,
+      "english": "The Legend of Zelda: Courage"
+    },
+    {
+      "id": 1011010,
+      "english": "Into the Maw of Darkness"
+    },
+    {
+      "id": 1011011,
+      "english": "Fan Club: Climbing The Ranks"
+    },
+    {
+      "id": 1011012,
+      "english": "URGENT: COAL MINERS NEEDED"
+    },
+    {
+      "id": 1011013,
+      "english": "Frozen Free-For-All"
+    },
+    {
+      "id": 1011015,
+      "english": "Nerscylla Nightmare"
+    },
+    {
+      "id": 1011016,
+      "english": "It'll Come Out in the Wash"
+    },
+    {
+      "id": 1011017,
+      "english": "\"My Love is Like a Chill Wind...?\""
+    },
+    {
+      "id": 1011018,
+      "english": "A Solid Argument"
+    },
+    {
+      "id": 1011019,
+      "english": "Glimmers of False Hope"
+    },
+    {
+      "id": 1011020,
+      "english": "Violence in the Verdure"
+    },
+    {
+      "id": 1011021,
+      "english": "Paws Off My Fish!"
+    },
+    {
+      "id": 1011022,
+      "english": "Big, Bad 'n' Woolly"
+    },
+    {
+      "id": 1011023,
+      "english": "Blade Blazing Brightly Black"
+    },
+    {
+      "id": 1011024,
+      "english": "Forewarned is Four-Horned"
+    },
+    {
+      "id": 1011025,
+      "english": "Meat is Murder"
+    },
+    {
+      "id": 1011026,
+      "english": "The Cry of Chaos"
+    },
+    {
+      "id": 1011027,
+      "english": "Brutal Brachydios"
+    },
+    {
+      "id": 1011028,
+      "english": "Bequest Quest"
+    },
+    {
+      "id": 1011029,
+      "english": "Forget Valstrax, Big Sis is Scarier!"
+    },
+    {
+      "id": 1011030,
+      "english": "The Gloom of 1,001 Nights"
+    },
+    {
+      "id": 1011031,
+      "english": "A Terrible Light"
+    },
+    {
+      "id": 1011032,
+      "english": "Legitimate Soaratorium Quest"
+    },
+    {
+      "id": 1011033,
+      "english": "Lord of the Volcanic Hollow"
+    },
+    {
+      "id": 1011034,
+      "english": "Welcome Back To Hell"
+    },
+    {
+      "id": 1011035,
+      "english": "Monster on a Crusade"
+    },
+    {
+      "id": 1011036,
+      "english": "Ukanlos-Made Global Cooling"
+    },
+    {
+      "id": 1011037,
+      "english": "Lao-Shan Lung Time No See"
+    },
+    {
+      "id": 1011039,
+      "english": "Alatreon and Alack"
+    },
+    {
+      "id": 1011040,
+      "english": "End of a Dark History"
+    },
+    {
+      "id": 1011041,
+      "english": "To Slay a Legend"
+    },
+    {
+      "id": 1011042,
+      "english": "Defy the Prophecy"
+    },
+    {
+      "id": 1011043,
+      "english": "Monster Hunter Channel I"
+    },
+    {
+      "id": 1011044,
+      "english": "Monster Hunter Channel II"
+    },
+    {
+      "id": 1020001,
+      "english": "Event: Slay a Mizutsune"
+    },
+    {
+      "id": 1020002,
+      "english": "Event: Slay a Glavenus"
+    },
+    {
+      "id": 1020003,
+      "english": "Event: Slay a Gammoth"
+    },
+    {
+      "id": 1020004,
+      "english": "Event: Slay an Astalos"
+    },
+    {
+      "id": 1020005,
+      "english": "Event: Slay a Lagiacrus"
+    },
+    {
+      "id": 1020006,
+      "english": "Event: Hunt-a-thon 1"
+    },
+    {
+      "id": 1020007,
+      "english": "Event: Hunt-a-thon 2"
+    },
+    {
+      "id": 1020008,
+      "english": "Event: Hunt-a-thon 3"
+    },
+    {
+      "id": 1020009,
+      "english": "Event: Slay a Zinogre"
+    },
+    {
+      "id": 1020010,
+      "english": "Event: Slay a Gore Magala"
+    },
+    {
+      "id": 1020011,
+      "english": "Event: Slay a Tigrex"
+    },
+    {
+      "id": 1020012,
+      "english": "Event: Slay a Rathalos"
+    },
+    {
+      "id": 1020013,
+      "english": "Event: Slay a Nargacuga"
+    },
+    {
+      "id": 1020014,
+      "english": "Event: Hunt-a-thon 4"
+    },
+    {
+      "id": 1020015,
+      "english": "XX Trials: Dreadqueen"
+    },
+    {
+      "id": 1020016,
+      "english": "XX Trials: Thunderlord"
+    },
+    {
+      "id": 1020017,
+      "english": "XX Trials: Silverwind"
+    },
+    {
+      "id": 1020018,
+      "english": "XX Trials: Dreadking"
+    },
+    {
+      "id": 1020019,
+      "english": "XX Trials: Grimclaw"
+    },
+    {
+      "id": 1020020,
+      "english": "XX Trials: Gravios"
+    },
+    {
+      "id": 1020021,
+      "english": "XX Trials: Elderfrost"
+    },
+    {
+      "id": 1020022,
+      "english": "XX Trials: Hunt-a-thon I"
+    },
+    {
+      "id": 1020023,
+      "english": "XX Trials: Hunt-a-thon II"
+    },
+    {
+      "id": 1020024,
+      "english": "XX Trials: Stonefist"
+    },
+    {
+      "id": 1020025,
+      "english": "XX Trials: Drilltusk"
+    },
+    {
+      "id": 1020026,
+      "english": "XX Trials: Redhelm"
+    },
+    {
+      "id": 1020027,
+      "english": "XX Trials: Deadeye"
+    },
+    {
+      "id": 1020028,
+      "english": "XX Trials: Snowbaron"
+    },
+    {
+      "id": 1020029,
+      "english": "XX Trials: Hunt-a-thon III"
+    },
+    {
+      "id": 1110001,
+      "english": "CoroCoro: Lost in the Swamp"
+    },
+    {
+      "id": 1110002,
+      "english": "The King of Lynians!"
+    },
+    {
+      "id": 1110003,
+      "english": "Jump: Crimson Strongmen"
+    },
+    {
+      "id": 1110004,
+      "english": "Initiate: Operation Moofah"
+    },
+    {
+      "id": 1110005,
+      "english": "The Uniqlo Avant-garde"
+    },
+    {
+      "id": 1110007,
+      "english": "Nakayoshi: Silver Crystal"
+    },
+    {
+      "id": 1110101,
+      "english": "CoroCoro: Big Bad Bugs"
+    },
+    {
+      "id": 1110102,
+      "english": "A Hero's Return"
+    },
+    {
+      "id": 1110103,
+      "english": "Mario: The White Donkey Kong?"
+    },
+    {
+      "id": 1110104,
+      "english": "Animal Crossing: Picnic Day"
+    },
+    {
+      "id": 1110105,
+      "english": "SF: Ultimate Entrance Exam"
+    },
+    {
+      "id": 1110106,
+      "english": "Fan Club: Arena Action"
+    },
+    {
+      "id": 1110108,
+      "english": "Making the Cut"
+    },
+    {
+      "id": 1110109,
+      "english": "Catch a Rathalos by the Tail"
+    },
+    {
+      "id": 1110111,
+      "english": "Too Hot to Handle"
+    },
+    {
+      "id": 1110112,
+      "english": "Case Closed: Monster Files"
+    },
+    {
+      "id": 1111001,
+      "english": "Baki: Deadly Claws"
+    },
+    {
+      "id": 1111002,
+      "english": "WORST: Skull Motif"
+    },
+    {
+      "id": 1111003,
+      "english": "CoroCoro: Fart of Darkness"
+    },
+    {
+      "id": 1111004,
+      "english": "Turnabout Takedown"
+    },
+    {
+      "id": 1111005,
+      "english": "Capcom: Prowler's Spirit"
+    },
+    {
+      "id": 1111006,
+      "english": "The Legend of Zelda: Wisdom"
+    },
+    {
+      "id": 1120001,
+      "english": "Event: Slay a Volvidon"
+    },
+    {
+      "id": 1120002,
+      "english": "Event: Slay a Royal Ludroth"
+    },
+    {
+      "id": 1120003,
+      "english": "Event: Slay a Lagombi"
+    },
+    {
+      "id": 1120004,
+      "english": "Event: Slay a Yian Kut-Ku"
+    },
+    {
+      "id": 1120005,
+      "english": "Event: Slay an Arzuros"
+    },
+    {
+      "id": 1120006,
+      "english": "Event: Hunt-a-thon 5"
+    },
+    {
+      "id": 1120007,
+      "english": "XX Trials: Rathalos"
+    },
+    {
+      "id": 1120008,
+      "english": "XX Trials: Tigrex"
+    },
+    {
+      "id": 1120009,
+      "english": "XX Trials: Nargacuga"
+    },
+    {
+      "id": 1120010,
+      "english": "XX Trials: Zinogre"
+    },
+    {
+      "id": 1120011,
+      "english": "XX Trials: Brachydios"
+    },
+    {
+      "id": 1120012,
+      "english": "XX Trials: Hunt-a-thon IV"
+    }
+  ],
+  "goals_needing_review": []
+}
