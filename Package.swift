@@ -7,6 +7,6 @@ let package = Package(
     products: [.executable(name: "HunterDex", targets: ["HunterDex"])],
     targets: [
         .systemLibrary(name: "CSQLite"),
-        .executableTarget(name: "HunterDex", dependencies: ["CSQLite"], resources: [.copy("Resources/mhgu.db"), .copy("Resources/zh.json"), .copy("Resources/localization.json"), .copy("Resources/linked-localization.json"), .copy("Resources/artwork.json"), .copy("Resources/Artwork"), .copy("Resources/MHGenDatabase-LICENSE.txt"), .copy("Resources/CommunityData-LICENSE.txt")])
+        .executableTarget(name: "HunterDex", dependencies: ["CSQLite"], resources: [.copy("Resources/mhgu.db"), .copy("Resources/zh.json"), .copy("Resources/localization.json"), .copy("Resources/linked-localization.json"), .copy("Resources/description-localization.json"), .copy("Resources/artwork.json"), .copy("Resources/Artwork"), .copy("Resources/MHGenDatabase-LICENSE.txt"), .copy("Resources/CommunityData-LICENSE.txt")])
     ]
 )

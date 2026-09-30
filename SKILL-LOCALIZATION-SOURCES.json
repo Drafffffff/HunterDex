@@ -776,32 +776,8 @@
     "method": "intersection of exact point contributions across uniquely named, independently matched armor"
   },
   "KO": {
-    "chinese": "KO",
-    "armor_ids": [
-      1310731,
-      1376267,
-      1441803,
-      1507339,
-      1310936,
-      1376472,
-      1442008,
-      1507544,
-      1310937,
-      1376473,
-      1442009,
-      1507545,
-      1310990,
-      1376526,
-      1442062,
-      1507598,
-      1573134,
-      1310991,
-      1376527,
-      1442063,
-      1507599,
-      1573135
-    ],
-    "method": "intersection of exact point contributions across uniquely named, independently matched armor"
+    "chinese": "击晕",
+    "method": "project review of MHGenDatabase effect description against jestar SkillEffect; deviant identity and X variant explicitly resolved"
   },
   "Def Lock": {
     "chinese": "对防御DOWN",

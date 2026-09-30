@@ -61,7 +61,7 @@ struct ContentView: View {
                 Image(systemName: "book.closed.fill").font(.system(size: 26)).foregroundStyle(Color.dexAccent)
                 VStack(alignment: .leading, spacing: 4) {
                     Text("猎人手册").font(.system(size: 19, weight: .bold))
-                    Text("FIELD NOTES / XX").font(.system(size: 8, weight: .semibold, design: .monospaced)).tracking(0.9).foregroundStyle(.secondary).lineLimit(1)
+                    Text("狩猎笔记 / XX").font(.system(size: 8, weight: .semibold, design: .monospaced)).tracking(0.9).foregroundStyle(.secondary).lineLimit(1)
                 }
                 Spacer(minLength: 0)
             }.padding(.horizontal, 18).padding(.vertical, 28)
@@ -88,7 +88,7 @@ struct ContentView: View {
             Spacer(minLength: 0)
             VStack(alignment: .leading, spacing: 9) {
                 Label("离线资料库", systemImage: "checkmark.circle.fill").font(.system(size: 11, weight: .medium)).foregroundStyle(Color.dexAccent)
-                Text("MHXX · GENERATIONS ULTIMATE").font(.system(size: 8, weight: .medium, design: .monospaced)).foregroundStyle(.secondary)
+                Text("MHXX · MHGU").font(.system(size: 8, weight: .medium, design: .monospaced)).foregroundStyle(.secondary)
                 Text("数据快照 2018.12.13").font(.system(size: 10)).foregroundStyle(.tertiary)
             }.frame(maxWidth: .infinity, alignment: .leading).padding(20)
         }
@@ -153,12 +153,12 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 18) {
             Label("猎人手册", systemImage: "book.closed.fill").font(.title.bold()).foregroundStyle(Color.dexAccent)
             Text("macOS 原生 · MHXX / MHGU 离线百科\n预览版 0.3.0 · 搜索与装备工作台").foregroundStyle(.secondary)
-            Text("数据来自 MHGenDatabase 的本地快照（2018-12-13）。现有中文覆盖 9,090 条武器等级、4,803 件防具、1,562 条普通道具、277 类强化素材、242 颗装饰珠和 882 个任务名，保留英文检索。社区名称通过装备数值、掉落记录或任务信息的唯一对应关系核验；未核实的译名继续显示英文。")
+            Text("数据来自 MHGenDatabase 的本地快照（2018-12-13）。目前中文名称覆盖：猎人武器 10,877/10,877、防具 5,637/5,637、普通道具 2,624/2,624、任务 1,355/1,355；装饰品、强化素材和随从装备名称均已覆盖。道具、武器与随从装备说明均已汉化。支持中英文检索。")
             Text("本版提供武器、防具、素材、怪物和任务查询，以及强化树、关联跳转和本地收藏。尚未实现自动配装；弩弹详细表、猫饭和狩技等内容待补充。")
             Link("HunterDex · 开源项目与更新", destination: URL(string: "https://github.com/Drafffffff/HunterDex")!)
             Link("MHGenDatabase · 数据来源", destination: URL(string: "https://github.com/gatheringhallstudios/MHGenDatabase")!)
             Link("jestar719/mhgu · 社区中文资料", destination: URL(string: "https://github.com/jestar719/mhgu")!)
-            Text("内置 91 张怪物插画和 205 个图标，来源为 MHGenDatabase 及 monster-hunter-web-data。武器与防具目前使用类别 / 部位图标，尚未收录逐件外观图；片手剑和狩猎笛的中文名仍有较多缺口。")
+            Text("内置 91 张怪物插画和 205 个图标，来源为 MHGenDatabase 及 monster-hunter-web-data。7,625 种道具与装备说明均已汉化；武器与防具使用类别／部位图标，尚未收录逐件外观图。")
                 .font(.footnote).foregroundStyle(.secondary)
             Text("这是独立开发的非官方工具，与 Ping’s Dex 及 CAPCOM 无隶属关系。未使用 Ping’s Dex 的程序或资源。游戏相关名称的权利归各自所有者。")
                 .font(.footnote).foregroundStyle(.secondary)

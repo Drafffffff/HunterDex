@@ -1,0 +1,25 @@
+{
+  "coverage": {
+    "Item": [
+      2065,
+      2065
+    ],
+    "Decoration": [
+      143,
+      143
+    ],
+    "Weapon": [
+      4750,
+      4750
+    ],
+    "Palico Weapon": [
+      219,
+      219
+    ],
+    "Palico Armor": [
+      448,
+      448
+    ]
+  },
+  "untranslated_descriptions": []
+}

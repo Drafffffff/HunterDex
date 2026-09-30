@@ -4,7 +4,7 @@
 
 ## 下载与安装
 
-前往 [GitHub Releases](https://github.com/Drafffffff/HunterDex/releases/latest) 下载 `HunterDex-0.3.0-macOS-arm64.zip`，解压后将 `HunterDex.app` 拖入「应用程序」。应用内置数据库，使用时不需要联网。发布页同时提供 SHA-256 校验文件。
+前往 [GitHub Releases](https://github.com/Drafffffff/HunterDex/releases/latest) 下载 `HunterDex-0.4.0-macOS-arm64.zip`，解压后将 `HunterDex.app` 拖入「应用程序」。应用内置数据库，使用时不需要联网。发布页同时提供 SHA-256 校验文件。
 
 发布包采用临时签名，尚未经过 Developer ID 签名或 Apple 公证。macOS 首次打开时可能拦截；确认下载来自本项目后，可在「系统设置 → 隐私与安全性」中允许打开。
 
@@ -58,20 +58,23 @@ open dist/HunterDex.app
 - 内置 205 个图标和 91 张怪物插画。武器与防具仍使用类别／部位图标，尚无逐件装备外观图。
 - 深浅外观跟随 macOS；⌘F 搜索、⌘D 收藏、⌘[ / ⌘] 前后浏览。
 
-中文覆盖（包含原有中文层）：
+中文覆盖（包含原有中文层；名称覆盖率按数据库记录统计）：
 
 | 类型 | 中文 / 总数 |
 | --- | ---: |
-| 武器等级记录 | 9,090 / 10,877 |
-| 防具 | 4,803 / 5,637 |
-| 普通道具／素材 | 1,562 / 2,624 |
+| 武器等级记录 | 10,877 / 10,877 |
+| 防具 | 5,637 / 5,637 |
+| 普通道具／素材 | 2,624 / 2,624 |
 | 强化素材点数类别 | 277 / 277 |
 | 装饰珠 | 242 / 242 |
-| 任务名称 | 882 / 1,355 |
+| 任务名称 | 1,355 / 1,355 |
+| 随从猫防具名称 | 1,001 / 1,001 |
+| 随从猫武器名称 | 495 / 495 |
+| 道具与装备说明（唯一原文） | 7,625 / 7,625 |
 
-任务目标另行翻译；未核实的名称保留英文，随从装备中文仍缺失。并非完整汉化版。名称映射与覆盖缺口分别记录在 `LOCALIZATION-SOURCES.json`、`LINKED-LOCALIZATION-SOURCES.json`、`LOCALIZATION-COVERAGE.json`；图片来源在 `ARTWORK-SOURCES.json`。
+普通道具名称现已全部汉化。任务名称和 843 种不同的主／副任务目标也均已汉化；猎人防具名称已全覆盖，猎人武器 10,877 / 10,877 个等级记录已全覆盖，随从装备名称已全覆盖。道具、武器和随从装备的说明文案已完成 7,625 种唯一原文的汉化。普通道具新增译名及可重复导入流程见 `scripts/import-reviewed-gap-item-names.py`、`scripts/import-unappraised-items.py`；唯一属性匹配的武器补充导入见 `scripts/import-unique-gap-weapon-names.py`，项目审校的武器系列名称见 `scripts/import-reviewed-weapon-gap-names.py`；唯一属性匹配的防具补充导入见 `scripts/import-unique-gap-armor-names.py`，套装属性序列唯一匹配见 `scripts/import-unique-armor-family-names.py`，系列前缀配合数据库部位和稀有度筛选，兼容中文库明示的通用性别或猎人类型，只导入唯一候选见 `scripts/import-unique-armor-term-names.py`；守护者与巨兽系列的项目审校译名见 `scripts/import-reviewed-armor-names.py`；说明译文脚本见 `scripts/extend-description-localization.py`。未翻译名称概览见 `LOCALIZATION-COVERAGE.json`，完整说明缺口见 `DESCRIPTION-LOCALIZATION-COVERAGE.json`；译名来源分别记录在 `LOCALIZATION-SOURCES.json`、`LINKED-LOCALIZATION-SOURCES.json`；图片来源在 `ARTWORK-SOURCES.json`。
 
-装备名称按完整强化序列或装备数值唯一匹配；新增素材名按怪物／地图、位阶、部位、数量与概率组成的掉落记录匹配，任务按会场、星级、地图、怪物和目标类型匹配。存在歧义时不自动覆盖。社区译名仍可能存在用词差异。
+装备名称按完整强化序列或装备数值唯一匹配；随从防具按防御力、五种属性耐性和稀有度区间唯一匹配；新增素材名按怪物／地图、位阶、部位、数量与概率组成的掉落记录，或跨地点采集分布、稀有度和携带上限唯一匹配；道具详情按稀有度、携带上限和已匹配任务报酬组合唯一匹配；任务按会场、星级、地图、怪物和目标类型匹配。存在歧义时不自动覆盖。社区译名仍可能存在用词差异。
 
 收藏保存在应用的 UserDefaults 中。设计方案见 `docs/0.3-experience-plan.md`，本轮验证与边界见 `docs/0.3-validation.md`。
 

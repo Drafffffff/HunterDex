@@ -92,6 +92,7 @@ enum DexError: LocalizedError {
 final class DexDatabase {
     private var db: OpaquePointer?
     private let translations: [String: [String: String]]
+    private let descriptionTranslations: [String: String]
     private let portraits: [String: String]
     var weapons: [Int: WeaponInfo] = [:]
     var armors: [Int: ArmorInfo] = [:]
@@ -115,6 +116,9 @@ final class DexDatabase {
               let artworkURL = resources.url(forResource: "artwork", withExtension: "json") else {
             throw DexError.message("缺少中文或图片索引，请重新构建完整的应用。")
         }
+        guard let descriptionURL = resources.url(forResource: "description-localization", withExtension: "json") else {
+            throw DexError.message("缺少中文说明词典，请重新构建完整的应用。")
+        }
         let supplement = try JSONDecoder().decode([String: [String: String]].self, from: Data(contentsOf: localizationURL))
         for (group, values) in supplement { merged[group, default: [:]].merge(values) { _, newer in newer } }
         if let linkedURL = resources.url(forResource: "linked-localization", withExtension: "json") {
@@ -122,6 +126,7 @@ final class DexDatabase {
             for (group, values) in linked { merged[group, default: [:]].merge(values) { _, newer in newer } }
         }
         translations = merged
+        descriptionTranslations = try JSONDecoder().decode([String: String].self, from: Data(contentsOf: descriptionURL))
         portraits = try JSONDecoder().decode([String: [String: String]].self, from: Data(contentsOf: artworkURL))["portraits"] ?? [:]
         guard sqlite3_open_v2(url.path, &db, SQLITE_OPEN_READONLY, nil) == SQLITE_OK else {
             let message = db.map { String(cString: sqlite3_errmsg($0)) } ?? "Unknown error"
@@ -216,7 +221,8 @@ final class DexDatabase {
         switch destination.category {
         case .weapons, .armor, .items:
             guard let row = try query("SELECT * FROM items WHERE _id=?", [destination.id]).first else { throw DexError.message("物品记录缺失。") }
-            detail.description = row.str("description")
+            let sourceDescription = row.str("description")
+            detail.description = descriptionTranslations[sourceDescription] ?? sourceDescription
             if destination.category == .weapons {
                 let weapon = try query("SELECT * FROM weapons WHERE _id=?", [destination.id]).first ?? [:]
                 detail.metrics = [Metric(label: "攻击力", value: weapon.str("attack")), Metric(label: "会心率", value: weapon.str("affinity") + "%"), Metric(label: "插槽", value: slots(weapon.int("num_slots"))), Metric(label: "稀有度", value: "R\(entry.rarity)")]

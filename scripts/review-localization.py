@@ -44,12 +44,38 @@ for r in db.execute('select _id,name,type from items'):
  if r['type']=='Decoration':name=base.get('decorations',{}).get(str(r['_id']),name)
  kind=r['type'] or 'Item';counts.setdefault(kind,[0,0]);counts[kind][1]+=1
  if re.search('[\u3400-\u9fff]',name):counts[kind][0]+=1
- elif kind in ['Item','Materials']:missing.append({'id':r['_id'],'english':r['name'],'type':kind})
+ else:missing.append({'id':r['_id'],'english':r['name'],'type':kind})
 qmissing=[]
 for r in db.execute('select _id,name from quests'):
  n=out['quests_by_id'].get(str(r['_id']),base['quests'].get(r['name'],r['name']))
  if not re.search('[\u3400-\u9fff]',n):qmissing.append({'id':r['_id'],'english':r['name']})
 counts['Quests']=[1355-len(qmissing),1355]
 left=[{'english':k,'translated':v} for k,v in out['goals'].items() if re.search('[a-zA-Z]{2,}',v)]
-(ROOT/'LOCALIZATION-COVERAGE.json').write_text(json.dumps({'coverage':counts,'untranslated_items':missing,'untranslated_quests':qmissing,'goals_needing_review':left},ensure_ascii=False,indent=2)+'\n')
+quest_goal_texts={r[0] for r in db.execute('select goal from quests')}
+quest_goal_texts.update(r[0] for r in db.execute("select sub_goal from quests where sub_goal is not null and sub_goal!=''"))
+translated_goal_count=sum(bool(re.search('[\u3400-\u9fff]',out.get('goals',{}).get(text,''))) for text in quest_goal_texts)
+description_path=RES/'description-localization.json'
+description_translations=json.loads(description_path.read_text()) if description_path.exists() else {}
+description_buckets={}
+for r in db.execute("select _id,name,type,description from items where trim(description)!=''"):
+ kind=r['type'] or 'Item';bucket=description_buckets.setdefault(kind,{})
+ bucket.setdefault(r['description'],{'records':0,'sample_ids':[],'sample_names':[]})
+ record=bucket[r['description']];record['records']+=1
+ if len(record['sample_ids'])<5:
+  record['sample_ids'].append(r['_id']);record['sample_names'].append(r['name'])
+desc_counts={kind:[sum(text in description_translations for text in bucket),len(bucket)] for kind,bucket in description_buckets.items()}
+description_gaps=[]
+for kind,bucket in description_buckets.items():
+ for text,record in bucket.items():
+  if text not in description_translations:description_gaps.append({'type':kind,'english':text,**record})
+description_gaps.sort(key=lambda row:(-row['records'],row['english']))
+description_report={'coverage':desc_counts,'untranslated_descriptions':description_gaps}
+(ROOT/'DESCRIPTION-LOCALIZATION-COVERAGE.json').write_text(json.dumps(description_report,ensure_ascii=False,indent=2)+'\n')
+provenance['counts']={'items':len(out.get('items_by_id',{})),'quests':len(out.get('quests_by_id',{})),
+                      'skill_effects':len(out.get('skill_effects',{}))}
+(ROOT/'LINKED-LOCALIZATION-SOURCES.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2)+'\n')
+report={'coverage':counts,'untranslated_items':missing,'untranslated_quests':qmissing,'goals_needing_review':left,
+        'quest_goals':[translated_goal_count,len(quest_goal_texts)],
+        'descriptions':desc_counts,'description_gaps':'DESCRIPTION-LOCALIZATION-COVERAGE.json'}
+(ROOT/'LOCALIZATION-COVERAGE.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(counts);print('Remaining mixed goal text:',left)

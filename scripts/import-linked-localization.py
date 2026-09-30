@@ -9,8 +9,24 @@ ROOT=Path(__file__).resolve().parents[1];RES=ROOT/'Sources/HunterDex/Resources';
 db=sqlite3.connect(RES/'mhgu.db');db.row_factory=sqlite3.Row
 base=json.loads((RES/'zh.json').read_text()); existing=json.loads((RES/'localization.json').read_text()); art=json.loads((ROOT/'ARTWORK-SOURCES.json').read_text())['portraits']
 monsters=existing['monsters']; page_mon={r['reference'].split('/')[-1]:int(i) for i,r in art.items()}
+def monster_key(name):return re.sub(r'[\s　·・]', '', name).replace('姫','姬')
+monster_ids={}
+for row in db.execute('select _id,name from monsters'):
+ for name in (row['name'],base.get('monsters',{}).get(row['name']),monsters.get(row['name'])):
+  if name:monster_ids[monster_key(name)]=row['_id']
+source_monsters=sqlite3.connect(CACHE/'jestar-mhgu.db')
+for name,url in source_monsters.execute('select name,url from IndexBean where type=6 and url is not null'):
+ monster_id=monster_ids.get(monster_key(name))
+ if monster_id is not None:page_mon[url.split('/')[-1]]=monster_id
+for alias,english in {'天慧龙':'Valstrax','阁螳螂·机甲':'Ahtal-Ka','紫毒姫雌火龙':'Dreadqueen Rathian','沙龙王':'Cephadrome'}.items():
+ row=db.execute('select _id from monsters where name=?',(english,)).fetchone()
+ source_row=source_monsters.execute('select url from IndexBean where type=6 and name=?',(alias,)).fetchone()
+ if row and source_row:page_mon[source_row[0].split('/')[-1]]=row[0]
 conditions={'个体剥ぎ取り':'Body Carve','剥ぎ取り':'Body Carve','尾巴剥ぎ取り':'Tail Carve','落与し物':'Shiny','捕获':'Capture','头部破坏':'Break Head','头破坏':'Break Head','翼破坏':'Break Wings','背中破坏':'Break Back','背破坏':'Break Back','角破坏':'Break Horn','尾巴破坏':'Break Tail','爪破坏':'Break Claws','前脚破坏':'Break Forelegs','脚破坏':'Break Legs','耳破坏':'Break Ears','胸破坏':'Break Chest','颚破坏':'Break Jaw','腕破坏':'Break Arms','后脚破坏':'Break Hindlegs','腹破坏':'Break Belly','眼破坏':'Break Eye','牙破坏':'Break Fang','フリー狩猎':None,'クチバシ破坏':'Break Beak','背ビレ破坏':'Break Fin','翼爪破坏':'Break Wingtalon','鬃毛破坏':'Break Mane','胴体破坏':'Break Body','个体采掘':'Body Gather'}
 proposals=collections.defaultdict(list); source_quests={}; missing_conditions=collections.Counter()
+def source_quest_id(reference):
+ match=re.search(r'(?:^|/)ida/(\d+)\.html',reference or '')
+ return match.group(1) if match else None
 def chinese(n):return bool(re.search('[\u3400-\u9fff]',n)) and not re.search('[\u3040-\u30ff]',n)
 for filename,mid in page_mon.items():
  p=CACHE/'jestar/data'/filename
@@ -69,7 +85,7 @@ for filename,mid in page_mon.items():
    monids.append(page_mon[f])
   if unknown or not monids:continue
   img=td[1].select_one('img');qtype=img.get('alt','') if img else ''
-  source_quests[title['href']]={'name':title.get_text(strip=True),'hub':'Village' if m[1]=='村' else 'Guild','stars':int(m[3])+(10 if m[2]=='G' and m[1]=='集' else 0),'location':td[2].get_text(strip=True),'monsters':sorted(set(monids)),'type':qtype,'source':title['href'].replace('../','')}
+  source_quests[title['href']]={'name':title.get_text(strip=True),'hub':'Village' if m[1]=='村' else 'Guild','stars':int(m[3])+(10 if m[2]=='G' and m[1]=='集' else 0),'location':td[2].get_text(strip=True),'monsters':sorted(set(monids)),'type':qtype,'source':title['href'].replace('../',''),'source_quest_id':source_quest_id(title['href'])}
 items={};evidence={};conflicts={}
 for iid,ps in proposals.items():
  names={p['name'] for p in ps}
@@ -87,6 +103,38 @@ def kind(n):
  if n.startswith('Slay'):return '讨伐'
  return '狩猎'
 def signature(q):return (q['hub'],q['stars'],locnorm(q['location']),tuple(q['monsters']),q['type'])
+# Downloaded event, arena, and permit lists render quests as panels rather
+# than table rows. Parse those records too, then require a unique database
+# match by hub/rank/location/objective and the full known target subset.
+panel_pages={2031:('Event','LR'),2032:('Event','HR'),2033:('Event','G'),
+             2034:('Arena',None),2035:('Arena',None),2036:('Permit',None),2997:('Permit','G')}
+native_location_names=collections.defaultdict(set)
+for location_id,name in locs.items():native_location_names[locnorm(name)].add(location_id)
+source_location_names={}
+for name,url in source_monsters.execute('select name,url from IndexBean where type=7 and url is not null'):
+ candidates=native_location_names.get(locnorm(name),set())
+ if len(candidates)==1:source_location_names[url.split('/')[-1]]=next(iter(candidates))
+panel_quests=[]
+quest_types={'狩猎':'狩猎','捕获':'捕获','讨伐':'讨伐','连续狩猎':'狩猎','采集':'采集'}
+for page,(hub,rank) in panel_pages.items():
+ path=CACHE/'jestar/data'/f'{page}.html'
+ if not path.exists():continue
+ soup=BeautifulSoup(path.read_text(),'html.parser')
+ for group in soup.select('.panel_grp'):
+  title=group.select_one('.panel-heading a[href*="ida/"]')
+  body=group.select_one('.panel-body')
+  if not title or not body:continue
+  icon=group.select_one('.panel-heading img[alt]');objective=quest_types.get(icon.get('alt',''), '') if icon else ''
+  links=body.select('a[href*="../data/"]');monster_ids=[];location_id=None;unknown_target=False
+  for link in links:
+   reference=link.get('href','').split('/')[-1].split('#')[0]
+   if reference in page_mon:monster_ids.append(page_mon[reference])
+   elif reference in source_location_names:location_id=source_location_names[reference]
+   else:unknown_target=True
+  if location_id is None or not objective or unknown_target:continue
+  panel_quests.append({'name':title.get_text(' ',strip=True),'source':f'data/{page}.html','source_quest_id':source_quest_id(title.get('href')),
+                       'hub':hub,'rank':rank,'location_id':location_id,
+                       'monsters':set(monster_ids),'type':objective})
 lookup=collections.defaultdict(list)
 for q in source_quests.values():
  q['type']={'连续狩猎':'狩猎','狩猎':'狩猎','捕获':'捕获','讨伐':'讨伐','采集':'采集'}.get(q['type'],q['type']);lookup[signature(q)].append(q)
@@ -99,7 +147,89 @@ quests={};qevidence={}
 for sig,source in lookup.items():
  native=qnative[sig]
  if len(source)!=1 or len(native)!=1 or not chinese(source[0]['name']):continue
- q=native[0];quests[str(q['_id'])]=source[0]['name'];qevidence[str(q['_id'])]={'english':q['name'],'source':'jestar719/mhgu:app/src/main/assets/mhxx/'+source[0]['source'],'method':'unique hub/stars/location/all-monsters/objective-type fingerprint','fingerprint':sig}
+ q=native[0];quests[str(q['_id'])]=source[0]['name'];qevidence[str(q['_id'])]={'english':q['name'],'source':'jestar719/mhgu:app/src/main/assets/mhxx/'+source[0]['source'],'source_quest_id':source[0].get('source_quest_id'),'method':'unique hub/stars/location/all-monsters/objective-type fingerprint','fingerprint':sig}
+# Some source tables omit secondary/small monsters that exist in the database.
+# Accept a reduced fingerprint only when location, hub, rank, objective type,
+# and the source monster subset still identify exactly one quest on both sides.
+native_meta=collections.defaultdict(list)
+for sig,rows in qnative.items():
+ for row in rows:
+  meta=sig[:3]+(sig[4],)
+  native_meta[meta].append((row,set(sig[3])))
+source_meta=collections.defaultdict(list)
+for q in source_quests.values():source_meta[(q['hub'],q['stars'],locnorm(q['location']),q['type'])].append(q)
+proposals=collections.defaultdict(list)
+for meta,source_rows in source_meta.items():
+ candidates=native_meta.get(meta,[])
+ for source in source_rows:
+  source_monsters=set(source['monsters'])
+  matches=[row for row,monsters_in_row in candidates if source_monsters.issubset(monsters_in_row)]
+  if len(matches)==1 and chinese(source['name']):proposals[str(matches[0]['_id'])].append(source)
+for quest_id,source_rows in proposals.items():
+ names={row['name'] for row in source_rows}
+ if len(names)!=1 or quest_id in quests:continue
+ row=db.execute('select name from quests where _id=?',(int(quest_id),)).fetchone()
+ source=source_rows[0]
+ quests[quest_id]=source['name'];qevidence[quest_id]={'english':row['name'],'source':'jestar719/mhgu:app/src/main/assets/mhxx/'+source['source'],'source_quest_id':source.get('source_quest_id'),'method':'unique hub/stars/location/objective-type fingerprint with source monsters as a verified subset'}
+native_loose=collections.defaultdict(list)
+for sig,rows in qnative.items():
+ for row in rows:native_loose[(row['hub'],row['rank'],sig[2],sig[4])].append((row,set(sig[3])))
+# Village, Guild and G-rank indexes contain compact quest panels with a
+# translated title, objective icon, map, and linked target monsters. Use the
+# complete metadata fingerprint; never align the English and Chinese lists
+# by their visual order or headings alone.
+indexed_pages={}
+for stars in range(1,11):
+ rank='LR' if stars<=6 else 'HR';indexed_pages[2010+stars]=('Village',rank,stars)
+for stars in range(1,8):
+ rank='LR' if stars<=3 else 'HR';indexed_pages[2020+stars]=('Guild',rank,stars)
+for stars,page in enumerate([2028,2029,2030,2996],1):indexed_pages[page]=('Guild','G',stars+10)
+objective_icons={'狩猎':'狩猎','捕获':'捕获','讨伐':'讨伐','连续狩猎':'狩猎','采集':'采集'}
+for page,(hub,rank,stars) in indexed_pages.items():
+ path=CACHE/'jestar/data'/f'{page}.html'
+ if not path.exists():continue
+ soup=BeautifulSoup(path.read_text(),'html.parser')
+ for group in soup.select('.panel_grp'):
+  title=group.select_one('.panel-heading a[href*="ida/"]');body=group.select_one('.panel-body')
+  if not title or not body:continue
+  icon=group.select_one('.panel-heading img[alt]')
+  objective=objective_icons.get(icon.get('alt','')) if icon else None
+  if not objective:continue
+  location_id=None;targets=set();unknown=False
+  for link in body.select('a[href*="../data/"]'):
+   reference=link.get('href','').split('/')[-1].split('#')[0]
+   if reference in page_mon:targets.add(page_mon[reference])
+   elif reference in source_location_names:location_id=source_location_names[reference]
+   else:unknown=True;break
+  if unknown or location_id is None:continue
+  panel_quests.append({'name':title.get_text(' ',strip=True),'source':f'data/{page}.html','source_quest_id':source_quest_id(title.get('href')),
+                       'hub':hub,'rank':rank,'stars':stars,'location_id':location_id,
+                       'monsters':targets,'type':objective})
+panel_matches=collections.defaultdict(list)
+candidate_panels=collections.defaultdict(list)
+for source in panel_quests:
+ for (hub,rank,location,objective),rows in native_loose.items():
+  if hub!=source['hub'] or location!=locnorm(locs[source['location_id']]) or objective!=source['type'] or (source.get('rank') and rank!=source['rank']):continue
+  candidates=[(row,monsters) for row,monsters in rows if source.get('stars') is None or row['stars']==source['stars']]
+  matches=[row for row,monsters_in_row in candidates if source['monsters'].issubset(monsters_in_row)]
+  if matches and chinese(source['name']) and source.get('source_quest_id'):
+   candidate_panels[source['source_quest_id']].append({'name':source['name'],'source':source['source'],
+       'candidates':sorted(row['_id'] for row in matches),'method':'hub/rank/stars/location/objective/target-subset fingerprint'})
+  if len(matches)==1 and chinese(source['name']):panel_matches[str(matches[0]['_id'])].append(source)
+for quest_id,source_rows in panel_matches.items():
+ names={source['name'] for source in source_rows}
+ if len(names)!=1:continue
+ if quest_id in quests:
+  if quests[quest_id]==next(iter(names)):
+   record=qevidence.get(quest_id,{})
+   ids=set(record.get('source_quest_ids',[]))
+   if record.get('source_quest_id'):ids.add(record['source_quest_id'])
+   ids.update(source['source_quest_id'] for source in source_rows if source.get('source_quest_id'))
+   record['source_quest_ids']=sorted(ids)
+   qevidence[quest_id]=record
+  continue
+ row=db.execute('select name from quests where _id=?',(int(quest_id),)).fetchone();source=source_rows[0]
+ quests[quest_id]=source['name'];qevidence[quest_id]={'english':row['name'],'source':'jestar719/mhgu:app/src/main/assets/mhxx/'+source['source'],'source_quest_id':source.get('source_quest_id'),'method':'unique indexed hub/rank/stars/location/objective/target-subset fingerprint' if source.get('stars') is not None else 'unique panel hub/rank/location/objective/target-subset fingerprint'}
 # Skill effects: match exact Chinese skill-tree name + activation threshold.
 c=sqlite3.connect(CACHE/'jestar-mhgu.db');c.row_factory=sqlite3.Row
 skilllookup=collections.defaultdict(list)
@@ -110,7 +240,7 @@ for r in db.execute('select s.*,t.name as tree_name from skills s join skill_tre
  if len(match)==1:effects[r['name']]=match[0]['name'];effectdescs[r['name']]=match[0]['effect']
 result={'items_by_id':items,'quests_by_id':quests,'skill_effects':effects,'skill_descriptions':effectdescs,'elements':{'Blastblight':'爆破'},'hubs':{'Permit':'特殊许可'},'locations':location_names}
 (RES/'linked-localization.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-(ROOT/'LINKED-LOCALIZATION-SOURCES.json').write_text(json.dumps({'items':evidence,'quests':qevidence,'conflicts':conflicts,'skill_effect_method':'exact Chinese skill-tree name + threshold in jestar SkillEffect','counts':{'items':len(items),'quests':len(quests),'skill_effects':len(effects)}},ensure_ascii=False,indent=2)+'\n')
+(ROOT/'LINKED-LOCALIZATION-SOURCES.json').write_text(json.dumps({'items':evidence,'quests':qevidence,'quest_candidates':candidate_panels,'conflicts':conflicts,'skill_effect_method':'exact Chinese skill-tree name + threshold in jestar SkillEffect','counts':{'items':len(items),'quests':len(quests),'skill_effects':len(effects)}},ensure_ascii=False,indent=2)+'\n')
 print('Items',len(items),'quests',len(quests),'skills',len(effects),'conflicts',len(conflicts),'source quests',len(source_quests))
 print('sample items',list(items.items())[:8]);print('sample quests',list(quests.items())[:8])
 print('source locations',sorted(set(q['location'] for q in source_quests.values())))

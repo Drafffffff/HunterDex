@@ -4,8 +4,8 @@ cd "${0:A:h:h}"
 configuration="${1:-release}"
 swift build -c "$configuration"
 binary_dir="$(swift build -c "$configuration" --show-bin-path)"
-app_path="$PWD/dist/HunterDex.app"
-if pgrep -x HunterDex >/dev/null; then
+app_path="${HUNTERDEX_APP_PATH:-$PWD/dist/HunterDex.app}"
+if [[ "$app_path" == "$PWD/dist/HunterDex.app" ]] && pgrep -x HunterDex >/dev/null; then
   echo "请先退出猎人手册，再运行打包脚本，以免替换正在读取的数据库。" >&2
   exit 1
 fi
@@ -21,8 +21,8 @@ cat > "$app_path/Contents/Info.plist" <<'PLIST'
 <key>CFBundleName</key><string>HunterDex</string>
 <key>CFBundleDisplayName</key><string>猎人手册</string>
 <key>CFBundlePackageType</key><string>APPL</string>
-<key>CFBundleShortVersionString</key><string>0.3.0</string>
-<key>CFBundleVersion</key><string>3</string>
+<key>CFBundleShortVersionString</key><string>0.4.0</string>
+<key>CFBundleVersion</key><string>4</string>
 <key>LSMinimumSystemVersion</key><string>14.0</string>
 <key>NSHighResolutionCapable</key><true/>
 <key>NSHumanReadableCopyright</key><string>Independent community companion. See bundled data attribution.</string>
